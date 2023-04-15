@@ -52,11 +52,20 @@ const Meta = (props: IMetaProps) => {
         description={props.description}
         canonical={props.canonical}
         openGraph={{
-          title: props.title,
+          title: `${props.title} | ${AppConfig.description}`,
           description: props.description,
           url: props.canonical,
           locale: AppConfig.locale,
           site_name: AppConfig.site_name,
+          images: [
+            {
+              url: `${AppConfig.url}/images/og-meta.png`,
+              alt: AppConfig.title,
+              height: 2034,
+              width: 1068,
+              type: 'image/png',
+            },
+          ],
         }}
       />
     </>
