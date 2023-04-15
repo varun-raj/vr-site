@@ -6,7 +6,8 @@ export default function SocialLinks() {
       <a
         className="group -m-1 p-1"
         aria-label="Follow on Twitter"
-        href="https://twitter.com"
+        target="_blank"
+        href="https://twitter.com/zathvarun"
       >
         <svg
           viewBox="0 0 24 24"
@@ -19,7 +20,8 @@ export default function SocialLinks() {
       <a
         className="group -m-1 p-1"
         aria-label="Follow on Instagram"
-        href="https://instagram.com"
+        target="_blank"
+        href="https://instagram.com/varunraj-22"
       >
         <svg
           viewBox="0 0 24 24"
@@ -33,7 +35,8 @@ export default function SocialLinks() {
       <a
         className="group -m-1 p-1"
         aria-label="Follow on GitHub"
-        href="https://github.com"
+        target="_blank"
+        href="https://github.com/varun-raj"
       >
         <svg
           viewBox="0 0 24 24"
@@ -50,7 +53,8 @@ export default function SocialLinks() {
       <a
         className="group -m-1 p-1"
         aria-label="Follow on LinkedIn"
-        href="https://linkedin.com"
+        target="_blank"
+        href="https://www.linkedin.com/in/varunrajm/"
       >
         <svg
           viewBox="0 0 24 24"
