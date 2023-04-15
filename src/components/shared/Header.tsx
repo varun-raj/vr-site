@@ -30,9 +30,7 @@ export default function Header() {
             <NavLink href="/">Home</NavLink>
             <NavLink href="/about">About</NavLink>
             <NavLink href="/tools">Tools</NavLink>
-            <NavLink href="https://www.goodreads.com/review/list/46704971?shelf=read">
-              Books
-            </NavLink>
+            <NavLink href="/books">Books</NavLink>
             <NavLink href="https://youtube.com/playlist?list=PLmC4h22Wk3iTmyKEkZ21XRvg3a3NAlZCS">
               Talks
             </NavLink>

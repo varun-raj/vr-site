@@ -3,7 +3,7 @@
   "version": "3.9.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run build:books && next build",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",
@@ -24,7 +24,8 @@
     "serve-storybook": "run-s storybook:*",
     "test-storybook:ci": "start-server-and-test serve-storybook http://localhost:6006 test-storybook",
     "prepare": "husky install",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "build:books": "node ./scripts/rss-to-json.js"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
@@ -93,6 +94,9 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "rimraf": "^4.4.1",
+    "rss-parser": "^3.13.0",
+    "rss-to-json": "^2.1.1",
+    "rss-to-json-v2": "^1.0.12",
     "semantic-release": "^19.0.5",
     "start-server-and-test": "^2.0.0",
     "storybook": "^7.0.2",
