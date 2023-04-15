@@ -59,13 +59,18 @@ const Meta = (props: IMetaProps) => {
           site_name: AppConfig.site_name,
           images: [
             {
-              url: `${AppConfig.url}/images/og-meta.png`,
+              url: `${AppConfig.url}/og-meta.png`,
               alt: AppConfig.title,
               height: 2034,
               width: 1068,
               type: 'image/png',
             },
           ],
+        }}
+        twitter={{
+          handle: '@zathvarun',
+          site: '@zathvarun',
+          cardType: 'summary_large_image',
         }}
       />
     </>
