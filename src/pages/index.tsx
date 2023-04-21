@@ -31,12 +31,15 @@ const Index = () => {
             👋
           </span>{' '}
           I&apos;m Varun, a web software developer from India, Currently
-          building <a href="https://hellonextjs.com">Hellonext</a> a feedback
-          management tool for SaaS tools.
+          building{' '}
+          <a href="https://hellonext.co" target="_blank">
+            Hellonext
+          </a>{' '}
+          a feedback management tool for SaaS tools.
         </p>
 
         <p>
-          I code, speak and write for passion. Love books and music. Huge fan or
+          I code, speak and write for passion. Love books and music, huge fan of
           art. Love collecting souvenirs from every travel I make
         </p>
 
