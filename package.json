@@ -25,7 +25,8 @@
     "test-storybook:ci": "start-server-and-test serve-storybook http://localhost:6006 test-storybook",
     "prepare": "husky install",
     "postbuild": "next-sitemap",
-    "build:books": "node ./scripts/rss-to-json.js"
+    "get:books": "node ./scripts/rss-to-json.js",
+    "build:books": "node ./scripts/books-info.js"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.9",
@@ -63,6 +64,7 @@
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "autoprefixer": "^10.4.14",
+    "axios": "^1.4.0",
     "commitizen": "^4.3.0",
     "cross-env": "^7.0.3",
     "cssnano": "^6.0.0",

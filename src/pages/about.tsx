@@ -1,3 +1,5 @@
+import { ArrowRight } from '@phosphor-icons/react';
+
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 import { AppConfig } from '@/utils/AppConfig';
@@ -13,7 +15,7 @@ const About = () => (
   >
     <div className="pb-8 pt-16">
       <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
-        About Me
+        💡 About Me
       </h1>
       {/* <h2 className="text-xl">{AppConfig.description}</h2> */}
     </div>
@@ -36,7 +38,9 @@ const About = () => (
       </p>
       <p>
         <a href="https://twitter.com/zathvarun" target="_blank">
-          <em>Talk to me {'->'}</em>
+          <span className="flex items-center gap-2">
+            Talk to me! <ArrowRight />
+          </span>
         </a>
       </p>
     </div>
