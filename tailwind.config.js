@@ -12,7 +12,7 @@ module.exports = {
       xxs: ['0.7rem', { lineHeight: '1.5rem' }],
       xs: ['0.8125rem', { lineHeight: '1.5rem' }],
       sm: ['0.875rem', { lineHeight: '1.5rem' }],
-      base: ['1rem', { lineHeight: '1.75rem' }],
+      base: ['1.1rem', { lineHeight: '1.75rem' }],
       lg: ['1.125rem', { lineHeight: '1.75rem' }],
       xl: ['1.25rem', { lineHeight: '2rem' }],
       '2xl': ['1.5rem', { lineHeight: '2rem' }],
@@ -25,7 +25,10 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     fontFamily: {
-      sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      sans: ['Satoshi', ...defaultTheme.fontFamily.sans],
+    },
+    fontWeight: {
+      bold: 800,
     },
     typography: (theme) => ({
       invert: {

@@ -1,0 +1,20 @@
+[
+  {
+    "from": "MAA",
+    "to": "BLR",
+    "flightNumber": "AI-850",
+    "event": "Delhi Event"
+  },
+  {
+    "from": "BLR",
+    "to": "MAA",
+    "flightNumber": "AI-850",
+    "event": "Delhi Event"
+  },
+  {
+    "from": "BLR",
+    "to": "MAA",
+    "flightNumber": "AI-850",
+    "event": "Delhi Event"
+  }
+]

@@ -21,7 +21,7 @@ const ToolItem = ({ tool }: { tool: IToolITem }) => {
         />
       </div>
       <div className="p-3">
-        <h3 className="text-base font-semibold text-gray-100">{tool.name}</h3>
+        <h3 className="font-semibold text-base text-gray-100">{tool.name}</h3>
         <p className="text-xs">{tool.description}</p>
       </div>
     </div>
@@ -39,7 +39,7 @@ export default function ToolsPage() {
       }
     >
       <div className="pb-8 pt-16">
-        <h1 className="mb-2 text-4xl font-bold text-gray-900 dark:text-gray-200">
+        <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
           <span role="img" aria-label="Hi">
             ⚒️
           </span>{' '}

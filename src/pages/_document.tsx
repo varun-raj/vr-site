@@ -8,9 +8,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head>
-          <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-        </Head>
+        <Head></Head>
         <body className="flex h-full flex-col bg-zinc-50 dark:bg-zinc-900">
           <Main />
           <NextScript />

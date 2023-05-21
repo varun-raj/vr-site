@@ -28,6 +28,7 @@
     "build:books": "node ./scripts/rss-to-json.js"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.0.9",
     "@tailwindcss/typography": "^0.5.9",
     "next": "^13.3.0",
     "next-seo": "^5.15.0",
