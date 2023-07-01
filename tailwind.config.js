@@ -29,6 +29,8 @@ module.exports = {
     },
     fontWeight: {
       bold: 800,
+      normal: 500,
+      regular: 400,
     },
     typography: (theme) => ({
       invert: {
@@ -107,6 +109,7 @@ module.exports = {
           p: {
             marginTop: theme('spacing.7'),
             marginBottom: theme('spacing.7'),
+            fontWeight: theme('fontWeight.normal'),
           },
 
           // Headings

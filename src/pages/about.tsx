@@ -19,7 +19,7 @@ const About = () => (
       </h1>
       {/* <h2 className="text-xl">{AppConfig.description}</h2> */}
     </div>
-    <div className="space-y-3 text-base">
+    <div className="space-y-3 text-base font-normal">
       <p>
         I&apos;m a software developer from India, running Skcript - a software
         technology company, we are building a suit of tools for product owners

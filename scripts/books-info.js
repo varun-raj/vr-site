@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 const { default: axios } = require('axios');
 const { writeFileSync } = require('fs');
-const booksData = require('../src/data/books-with-isbn.json');
+const booksData = require('../src/data/books.json');
 
 const booksWithoutKey = booksData
   .filter((book) => !book.key)

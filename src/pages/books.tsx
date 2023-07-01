@@ -21,11 +21,11 @@ const BookItem = ({ book }: { book: IBook }) => {
         alt={title}
         className="max-h-[300px] max-w-[200px] rounded-r-xl shadow-md"
       />
-      <h3 className="m-2 text-sm text-white">{book.title}</h3>
+      <h3 className="m-2 text-sm font-normal  dark:text-white">{book.title}</h3>
 
       <div className="flex items-center rounded-full bg-gray-200 px-2 text-xxs text-gray-800 dark:bg-zinc-700 dark:text-gray-400 dark:ring-white/10">
         <User className="mr-1" />
-        <span font-medium inline-flex>
+        <span className="inline-flex font-normal">
           {Array.isArray(author_name) ? author_name.join(', ') : author_name}
         </span>
       </div>
@@ -54,7 +54,7 @@ export default function BooksPage({ books }: IBooksPageProps) {
           </span>{' '}
           Books that I read
         </h1>
-        <h2 className="text-xl">
+        <h2 className="text-xl  font-normal">
           Mystery, Thriller, Fiction, Non-Fiction, Self-Help, and more.
         </h2>
 

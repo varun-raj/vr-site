@@ -21,8 +21,10 @@ const ToolItem = ({ tool }: { tool: IToolITem }) => {
         />
       </div>
       <div className="p-3">
-        <h3 className="font-semibold text-base text-gray-100">{tool.name}</h3>
-        <p className="text-xs">{tool.description}</p>
+        <h3 className="text-base font-normal dark:text-gray-100">
+          {tool.name}
+        </h3>
+        <p className="text-xs font-normal">{tool.description}</p>
       </div>
     </div>
   );
@@ -45,7 +47,9 @@ export default function ToolsPage() {
           </span>{' '}
           Tools I use
         </h1>
-        <h2 className="text-xl">A list of tools I use to get things done.</h2>
+        <h2 className="text-xl  font-normal">
+          A list of tools I use to get things done.
+        </h2>
 
         <div className="mt-3 grid grid-cols-3 gap-2 lg:gap-5">
           {tools.map((tool) => (

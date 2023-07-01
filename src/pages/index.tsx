@@ -23,9 +23,9 @@ const Index = () => {
         <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
           {AppConfig.title}
         </h1>
-        <h2 className="text-xl">{AppConfig.description}</h2>
+        <h2 className="text-xl font-normal">{AppConfig.description}</h2>
       </div>
-      <div className="space-y-3 text-base">
+      <div className="space-y-3 text-base font-normal">
         <p>
           <span role="img" aria-label="Hi">
             👋
