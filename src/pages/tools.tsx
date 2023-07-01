@@ -10,8 +10,8 @@ type IToolITem = (typeof tools)[0];
 
 const ToolItem = ({ tool }: { tool: IToolITem }) => {
   return (
-    <div className="flex flex-col items-center justify-start space-y-3 rounded-lg shadow-sm ring-1 ring-gray-200 backdrop-blur dark:ring-white/20">
-      <div className="flex w-full justify-center rounded-t-lg bg-gray-100  py-6 dark:bg-zinc-800">
+    <div className="flex flex-col items-center justify-start rounded-lg shadow-sm ring-1 ring-gray-200 backdrop-blur dark:ring-white/20">
+      <div className="flex w-full justify-center rounded-t-lg bg-gray-100 py-6 dark:bg-zinc-800">
         <Image
           src={tool.icon}
           width={75}
@@ -24,7 +24,7 @@ const ToolItem = ({ tool }: { tool: IToolITem }) => {
         <h3 className="text-base font-normal dark:text-gray-100">
           {tool.name}
         </h3>
-        <p className="text-xs font-normal">{tool.description}</p>
+        {/* <p className="text-xs font-normal">{tool.description}</p> */}
       </div>
     </div>
   );
@@ -51,7 +51,7 @@ export default function ToolsPage() {
           A list of tools I use to get things done.
         </h2>
 
-        <div className="mt-3 grid grid-cols-3 gap-2 lg:gap-5">
+        <div className=" mt-3 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {tools.map((tool) => (
             <ToolItem key={tool.name} tool={tool} />
           ))}

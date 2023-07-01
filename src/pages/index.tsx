@@ -21,7 +21,7 @@ const Index = () => {
           alt="Profile Picture"
         />
         <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
-          {AppConfig.title}
+          {AppConfig.title} 🪴
         </h1>
         <h2 className="text-xl font-normal">{AppConfig.description}</h2>
       </div>
