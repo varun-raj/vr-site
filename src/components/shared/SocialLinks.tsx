@@ -4,7 +4,7 @@ export default function SocialLinks() {
   return (
     <div className="mt-6 flex gap-6">
       <a
-        className="group -m-1 p-1"
+        className="plain group -m-1 p-1"
         aria-label="Follow on Twitter"
         target="_blank"
         href="https://twitter.com/zathvarun"
@@ -18,7 +18,7 @@ export default function SocialLinks() {
         </svg>
       </a>
       <a
-        className="group -m-1 p-1"
+        className="plain group -m-1 p-1"
         aria-label="Follow on Instagram"
         target="_blank"
         href="https://instagram.com/varunraj-22"
@@ -33,7 +33,7 @@ export default function SocialLinks() {
         </svg>
       </a>
       <a
-        className="group -m-1 p-1"
+        className="plain group -m-1 p-1"
         aria-label="Follow on GitHub"
         target="_blank"
         href="https://github.com/varun-raj"
@@ -51,7 +51,7 @@ export default function SocialLinks() {
         </svg>
       </a>
       <a
-        className="group -m-1 p-1"
+        className="plain group -m-1 p-1"
         aria-label="Follow on LinkedIn"
         target="_blank"
         href="https://www.linkedin.com/in/varunrajm/"

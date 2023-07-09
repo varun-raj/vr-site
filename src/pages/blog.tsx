@@ -10,20 +10,21 @@ import { AppConfig } from '../utils/AppConfig';
 
 function PostCard(post: Post) {
   return (
-    <div className="mb-8 space-x-3 space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-      <Link href={`/blog/${post.slug}`}>
-        <time dateTime={post.date} className="mb-2 block font-mono text-xs">
-          {format(parseISO(post.date), 'LLLL d, yyyy')}
-        </time>
-      </Link>
-      <div className="space-y-3 xl:col-span-3">
-        <h2 className="mb-1 text-xl font-normal text-gray-900 dark:text-gray-100">
-          <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+    <div className="group mb-8 space-x-3 space-y-1 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+      <time dateTime={post.date} className="mb-2 block font-mono text-xs">
+        {format(parseISO(post.date), 'LLLL d, yyyy')}
+      </time>
+      <Link
+        href={`/blog/${post.slug}`}
+        className="plain space-y-3 rounded-lg p-4 hover:bg-gray-100 dark:hover:bg-black xl:col-span-3"
+      >
+        <h2 className="mb-1 text-xl font-normal text-gray-900 group-hover:text-orange-500 dark:text-gray-100 dark:group-hover:text-orange-300">
+          {post.title}
         </h2>
         <p className="text-base font-normal text-gray-500">
           {post.description}
         </p>
-      </div>
+      </Link>
     </div>
   );
 }
@@ -52,7 +53,7 @@ export default function Home() {
         <h2 className="text-xl  font-normal">
           I write about life, business and philosophy.
         </h2>
-        <div className="mt-5">
+        <div className="mt-10">
           {posts.map((post, idx) => (
             <>
               <PostCard key={idx} {...post} />

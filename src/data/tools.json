@@ -1,8 +1,38 @@
 [
   {
+    "name": "Apple Macbook Air M1, 8GB",
+    "category": "Devices & Instruments",
+    "description": "My goto tool for development, design, and everything in between.",
+    "url": "https://www.apple.com/in/macbook-air-m1/"
+  },
+  {
+    "name": "iPhone 11",
+    "category": "Devices & Instruments",
+    "description": "The device I rely on for communication, entertainment, and everything in between.",
+    "url": "https://www.apple.com/by/iphone-11/"
+  },
+  {
+    "name": "Kindle Paperwhite, Gen 10",
+    "category": "Devices & Instruments",
+    "description": "Read Read Read. I love reading books and Kindle is my goto device for that.",
+    "url": "https://www.amazon.in/All-New-Kindle-Paperwhite-10th-Built/dp/B077454Z99/"
+  },
+  {
+    "name": "Apple Airpods Pro",
+    "category": "Devices & Instruments",
+    "description": "Music, Podcasts, Business calls, and everything else",
+    "url": "https://www.apple.com/in/airpods-pro/"
+  },
+  {
+    "name": "LG 29\" Ultrawide Monitor - 29WL500-B",
+    "category": "Devices & Instruments",
+    "description": "The monitor I fell in love with, the wide angle setup helps me to focus on multiple things at once.",
+    "url": "https://www.lg.com/in/monitors/lg-29wl500-b"
+  },
+  {
     "name": "VSCode",
     "category": "Development",
-    "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.",
+    "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
     "url": "https://code.visualstudio.com/",
     "icon": "/assets/images/vscode.png"
   },

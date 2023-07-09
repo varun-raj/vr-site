@@ -30,7 +30,7 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
     <Main meta={<Meta title={post.title} description={post.title} />}>
       {/* Back button code */}
       <div className="flex justify-between">
-        <Link href="/blog" className="text-xs">
+        <Link href="/blog" className="plain text-xs">
           <>⬅️ Back</>
         </Link>
       </div>
@@ -38,7 +38,7 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
       <h1 className="mt-2 text-3xl font-bold text-gray-900 dark:text-gray-100">
         {post.title}
       </h1>
-      <Link href={`/blog/${post.slug}`} className="text-xs">
+      <Link href={`/blog/${post.slug}`} className="plain text-xs">
         <time
           dateTime={post.date}
           className="mt-2 block font-mono text-xs dark:text-gray-300"

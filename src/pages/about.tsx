@@ -1,4 +1,4 @@
-import { ArrowRight } from '@phosphor-icons/react';
+import Link from 'next/link';
 
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
@@ -21,9 +21,12 @@ const About = () => (
     </div>
     <div className="space-y-3 text-base font-normal">
       <p>
-        I&apos;m a software developer from India, running Skcript - a software
-        technology company, we are building a suit of tools for product owners
-        to build better products and manage them.
+        I&apos;m a software developer from India, running{' '}
+        <a href="https://skcript.com" target="_blank">
+          Skcript
+        </a>{' '}
+        - a software technology company, we are building a suit of tools for
+        product owners to build better products and manage them.
       </p>
       <p>
         Been into the software industry for more than 10 years now, and the
@@ -34,15 +37,43 @@ const About = () => (
         I love traveling and exploring new places, mainly the trips that
         involves adventure and nature. More into books and music. I love
         collecting souvenirs from every travel I make. I&apos;ve a thing for
-        really good design.
+        really{' '}
+        {
+          <Link href="/blog/why-we-should-care-about-good-design">
+            good design
+          </Link>
+        }
+        .
       </p>
-      <p>
-        <a href="https://twitter.com/zathvarun" target="_blank">
-          <span className="flex items-center gap-2">
-            Talk to me! <ArrowRight />
-          </span>
-        </a>
-      </p>
+    </div>
+    <div className="mt-10">
+      <h3 className="font-bold text-orange-500">Currently Working on</h3>
+      <ul className="mt-3 flex flex-col space-y-4">
+        <li>
+          <h4 className="text-base font-normal">
+            <a href="https://hellonext.co" className="plain" target="_blank">
+              featureOS.app
+            </a>
+          </h4>
+          <p className="text-sm font-normal">
+            A feature management tool for product owners to manage their product
+          </p>
+        </li>
+        <li>
+          <h4 className="text-base font-normal">
+            <a
+              href="https://alphaos.app/helpos"
+              className="plain"
+              target="_blank"
+            >
+              helpOS.app
+            </a>
+          </h4>
+          <p className="text-sm font-normal">
+            A helpdesk tool for product owners to manage their support
+          </p>
+        </li>
+      </ul>
     </div>
   </Main>
 );

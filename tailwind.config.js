@@ -33,6 +33,7 @@ module.exports = {
       normal: 500,
       regular: 400,
     },
+
     typography: (theme) => ({
       invert: {
         css: {
