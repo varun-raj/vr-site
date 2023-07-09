@@ -31,7 +31,14 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
   if (!post) return <div>404</div>;
 
   return (
-    <Main meta={<Meta title={post.title} description={post.description} />}>
+    <Main
+      meta={
+        <Meta
+          title={`${post.title} | ${AppConfig.site_name}`}
+          description={post.description}
+        />
+      }
+    >
       <ArticleJsonLd
         authorName={AppConfig.author}
         datePublished={post.date}

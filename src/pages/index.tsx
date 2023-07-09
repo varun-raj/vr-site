@@ -9,7 +9,10 @@ const Index = () => {
   return (
     <Main
       meta={
-        <Meta title={AppConfig.title} description={AppConfig.description} />
+        <Meta
+          title={`${AppConfig.title} | ${AppConfig.headline}`}
+          description={AppConfig.description}
+        />
       }
     >
       <div className="pb-8 pt-16">
