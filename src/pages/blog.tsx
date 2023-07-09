@@ -10,10 +10,10 @@ import { AppConfig } from '../utils/AppConfig';
 
 function PostCard(post: Post) {
   return (
-    <div className="group mb-8 space-x-3 space-y-1 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+    <div className="group mb-10 space-x-3 space-y-1 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
       <time
         dateTime={post.date}
-        className="mb-4 rounded-full px-2 py-1 font-mono text-xxxs ring-1 ring-zinc-200 xl:text-xs xl:ring-0"
+        className="mb-4 rounded-full font-mono text-xxs xl:text-xs"
       >
         {format(parseISO(post.date), 'LLLL d, yyyy')}
       </time>
