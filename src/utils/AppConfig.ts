@@ -5,4 +5,5 @@ export const AppConfig = {
   description: 'Software Developer, SaaS Founder & Travel Enthusiast',
   locale: 'en',
   url: 'https://varunraj.in',
+  author: 'Varun Raj Manoharan',
 };

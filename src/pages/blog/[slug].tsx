@@ -6,11 +6,15 @@ import type {
   GetStaticProps,
   InferGetStaticPropsType,
 } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useMDXComponent } from 'next-contentlayer/hooks';
+import { ArticleJsonLd } from 'next-seo';
 
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
+
+import { AppConfig } from '../../utils/AppConfig';
 
 type IBlogUrl = {
   slug: string;
@@ -27,8 +31,16 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
   if (!post) return <div>404</div>;
 
   return (
-    <Main meta={<Meta title={post.title} description={post.title} />}>
-      {/* Back button code */}
+    <Main meta={<Meta title={post.title} description={post.description} />}>
+      <ArticleJsonLd
+        authorName={AppConfig.author}
+        datePublished={post.date}
+        description={post.description}
+        title={post.title}
+        publisherName={AppConfig.author}
+        url={`${AppConfig.url}/blog/${post.slug}`}
+        images={[post.cover]}
+      />
       <div className="flex justify-between">
         <Link href="/blog" className="plain text-xs">
           <>⬅️ Back</>
@@ -38,14 +50,26 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
       <h1 className="mt-2 text-3xl font-bold text-gray-900 dark:text-gray-100">
         {post.title}
       </h1>
-      <Link href={`/blog/${post.slug}`} className="plain text-xs">
-        <time
-          dateTime={post.date}
-          className="mt-2 block font-mono text-xs dark:text-gray-300"
-        >
-          ⏰ {format(parseISO(post.date), 'LLLL d, yyyy')}
-        </time>
-      </Link>
+
+      <div className="mt-3 flex items-center justify-between space-x-2">
+        <Link href={`/blog/${post.slug}`} className="plain">
+          <time
+            dateTime={post.date}
+            className="block font-mono text-xs dark:text-gray-300"
+          >
+            ⏰ {format(parseISO(post.date), 'LLLL d, yyyy')}
+          </time>
+        </Link>
+        <p className="text-xs">{post.readingTime.text}</p>
+      </div>
+
+      <Image
+        src={post.cover}
+        alt={post.title}
+        width={800}
+        height={400}
+        className="mt-4 rounded-lg"
+      />
       <article className="prose">
         <Component />
       </article>
