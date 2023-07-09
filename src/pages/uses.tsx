@@ -66,7 +66,7 @@ export default function ToolsPage() {
           {groupedTools.map((group) => (
             <div key={group.label}>
               <div className="sticky top-0 backdrop-blur-sm ">
-                <h2 className="mb-5 py-3 font-mono font-bold text-orange-500 dark:text-orange-200">
+                <h2 className="mb-5 py-3 font-mono font-bold text-orange-500 dark:text-orange-400">
                   {group.label}
                 </h2>
               </div>

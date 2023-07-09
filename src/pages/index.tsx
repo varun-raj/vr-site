@@ -17,7 +17,7 @@ const Index = () => {
           src="/profile_picture.jpg"
           width={200}
           height={200}
-          className="mb-3 h-16 w-16 rounded-full bg-zinc-100 object-cover ring-white dark:bg-zinc-800"
+          className="mb-3 h-16 w-16 rounded-full bg-zinc-100 object-cover ring-white transition-all duration-300 hover:h-20 hover:w-20 dark:bg-zinc-800"
           alt="Profile Picture"
         />
         <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">

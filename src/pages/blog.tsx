@@ -17,16 +17,19 @@ function PostCard(post: Post) {
       >
         {format(parseISO(post.date), 'LLLL d, yyyy')}
       </time>
+
       <Link
         href={`/blog/${post.slug}`}
-        className="plain space-y-3 rounded-lg p-4 hover:bg-gray-100 dark:hover:bg-black xl:col-span-3"
+        className="plain space-y-3 xl:col-span-3"
       >
-        <h2 className="mb-1 text-xl font-normal text-gray-900 group-hover:text-orange-500 dark:text-gray-100 dark:group-hover:text-orange-300">
-          {post.title}
-        </h2>
-        <p className="text-base font-normal text-gray-500">
-          {post.description}
-        </p>
+        <div className="rounded-lg xl:p-4 xl:hover:bg-gray-100 xl:dark:hover:bg-black">
+          <h2 className="mb-1 text-xl font-normal text-gray-900 group-hover:text-orange-500 dark:text-gray-100 dark:group-hover:text-orange-300">
+            {post.title}
+          </h2>
+          <p className="text-base font-normal text-gray-500">
+            {post.description}
+          </p>
+        </div>
       </Link>
     </div>
   );
