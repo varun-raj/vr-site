@@ -4,7 +4,7 @@
   "scripts": {
     "next-dev": "next dev",
     "dev": "run-p contentlayer-dev next-dev",
-    "build": "yarn run contentlayer-build && npm run build:books && next build",
+    "build": "yarn run contentlayer-build && yarn run build:books && next build && yarn run sitemap",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",
@@ -18,7 +18,7 @@
     "test": "jest",
     "commit": "cz",
     "prepare": "husky install",
-    "postbuild": "next-sitemap",
+    "sitemap": "next-sitemap",
     "get:books": "node ./scripts/rss-to-json.js",
     "build:books": "node ./scripts/books-info.js"
   },
