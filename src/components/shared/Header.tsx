@@ -6,10 +6,13 @@ import React from 'react';
 
 interface NavLinkProps extends LinkProps {
   children: React.ReactNode;
+  isExact?: boolean;
 }
-const NavLink = ({ href, children, ...props }: NavLinkProps) => {
+const NavLink = ({ href, isExact, children, ...props }: NavLinkProps) => {
   const router = useRouter();
-  const isActive = router.asPath === href;
+  const isActive = isExact
+    ? router.asPath === href
+    : router.asPath.includes(href.toString());
   return (
     <Link
       {...props}
@@ -41,7 +44,9 @@ export default function Header() {
         <nav>
           <ul className="my-5 flex flex-wrap items-center justify-center rounded-full bg-white/90 px-2 text-sm font-normal text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
             <li>
-              <NavLink href="/">Home</NavLink>
+              <NavLink isExact href="/">
+                Home
+              </NavLink>
             </li>
             <li>
               <NavLink href="/about">About</NavLink>

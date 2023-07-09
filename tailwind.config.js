@@ -9,6 +9,7 @@ module.exports = {
   plugins: [require('@tailwindcss/typography')],
   theme: {
     fontSize: {
+      xxxs: ['0.6rem', { lineHeight: '1.2rem' }],
       xxs: ['0.7rem', { lineHeight: '1.5rem' }],
       xs: ['0.8125rem', { lineHeight: '1.5rem' }],
       sm: ['0.875rem', { lineHeight: '1.5rem' }],
