@@ -56,7 +56,7 @@ export default function Home() {
         <h2 className="text-xl  font-normal">
           I write about life, business and philosophy.
         </h2>
-        <div className="mt-10">
+        <div className="mt-20">
           {posts.map((post, idx) => (
             <>
               <PostCard key={idx} {...post} />
