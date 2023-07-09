@@ -61,9 +61,7 @@ export default function Home() {
         </h2>
         <div className="mt-20">
           {posts.map((post, idx) => (
-            <>
-              <PostCard key={idx} {...post} />
-            </>
+            <PostCard key={idx} {...post} />
           ))}
         </div>
       </div>
