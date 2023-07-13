@@ -11,11 +11,15 @@ import { groupToArray } from '../utils/libs';
 
 type IToolITem = (typeof tools)[0];
 
+const isAssetURL = (url: string) => {
+  return url.startsWith('https://') || url.startsWith('/');
+};
+
 const ToolItem = ({ tool }: { tool: IToolITem }) => {
   return (
     <div className="flex flex-col justify-start space-y-2 rounded-lg">
       <div className="flex items-center space-x-2">
-        {tool.icon && (
+        {!!(tool.icon && isAssetURL(tool.icon)) && (
           <Image
             src={tool.icon}
             width={75}
@@ -24,6 +28,7 @@ const ToolItem = ({ tool }: { tool: IToolITem }) => {
             className="max-h-[15px] max-w-[15px]"
           />
         )}
+        {!!(tool.icon && !isAssetURL(tool.icon)) && <span>{tool.icon}</span>}
         <Link href={tool.url} className="plain hover-arrow">
           <h3 className="text-base font-normal dark:text-gray-100">
             {tool.name}
