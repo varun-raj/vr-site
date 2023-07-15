@@ -16,6 +16,13 @@
        font-display: swap;
        font-style: normal;
 }
+@font-face {
+  font-family: 'Lora';
+  src: url('/Lora.ttf') format('truetype');
+       font-weight: 300 900;
+       font-display: swap;
+       font-style: normal;
+}
 
 
 

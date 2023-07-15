@@ -28,6 +28,7 @@ module.exports = {
     fontFamily: {
       sans: ['Satoshi', ...defaultTheme.fontFamily.sans],
       mono: ['JetBrains Mono', ...defaultTheme.fontFamily.mono],
+      serif: ['Lora', ...defaultTheme.fontFamily.serif],
     },
     fontWeight: {
       bold: 800,

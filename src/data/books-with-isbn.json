@@ -14,9 +14,7 @@
       "9780571272877",
       "0571255655"
     ],
-    "author_name": [
-      "Claire Keegan"
-    ],
+    "author_name": ["Claire Keegan"],
     "book_description": "A small girl is sent to live with foster parents on a farm in rural Ireland, without knowing when she will return home. In the strangers' house, she finds a warmth and affection she has not known before and slowly begins to blossom in their care. And then a secret is revealed and suddenly, she realizes how fragile her idyll is.<br /><br />Winner of the Davy Byrnes Memorial Prize, Foster is now published in a revised and expanded version. Beautiful, sad and eerie, it is a story of astonishing emotional depth, showcasing Claire Keegan's great accomplishment and talent.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328146652l/8143909.jpg",
     "book_published": "2010",
@@ -51,42 +49,21 @@
       "OL44003524M",
       "OL38061192M"
     ],
-    "publish_date": [
-      "2010",
-      "2022"
-    ],
-    "publish_year": [
-      2010,
-      2022
-    ],
+    "publish_date": ["2010", "2022"],
+    "publish_year": [2010, 2022],
     "first_publish_year": 2010,
     "number_of_pages_median": 109,
-    "lccn": [
-      "2022031324"
-    ],
-    "publish_place": [
-      "London",
-      "Minneapolis, USA"
-    ],
-    "oclc": [
-      "1335121773",
-      "502415194"
-    ],
-    "lcc": [
-      "PR-6061.00000000.E329 F67 2022",
-      "PR-6061.00000000.E329"
-    ],
-    "ddc": [
-      "823.92"
-    ],
+    "lccn": ["2022031324"],
+    "publish_place": ["London", "Minneapolis, USA"],
+    "oclc": ["1335121773", "502415194"],
+    "lcc": ["PR-6061.00000000.E329 F67 2022", "PR-6061.00000000.E329"],
+    "ddc": ["823.92"],
     "last_modified_i": 1672777803,
     "ebook_count_i": 1,
     "ebook_access": "borrowable",
     "has_fulltext": true,
     "public_scan_b": false,
-    "ia": [
-      "foster0000keeg"
-    ],
+    "ia": ["foster0000keeg"],
     "ia_collection": [
       "belmont-ol",
       "dartmouthlibrary-ol",
@@ -111,38 +88,28 @@
       "Grove/Atlantic, Incorporated",
       "Faber and Faber"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL82155A"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL82155A"],
     "author_alternative_name": [
       "CLAIRE KEEGAN",
       "Qi Gen (Keegan, Claire)",
       "KEEGAN CLAIRE"
     ],
-    "place": [
-      "Ireland"
-    ],
+    "place": ["Ireland"],
     "subject": [
       "Foster home care",
       "Fiction",
       "Fiction, general",
       "Ireland, fiction"
     ],
-    "ia_box_id": [
-      "IA1886801"
-    ],
+    "ia_box_id": ["IA1886801"],
     "publisher_facet": [
       "Faber & Faber, Limited",
       "Faber and Faber",
       "Grove/Atlantic, Incorporated",
       "Highbridge Audio"
     ],
-    "place_key": [
-      "ireland"
-    ],
+    "place_key": ["ireland"],
     "subject_facet": [
       "Fiction",
       "Fiction, general",
@@ -150,13 +117,9 @@
       "Ireland, fiction"
     ],
     "_version_": 1759761157685510100,
-    "place_facet": [
-      "Ireland"
-    ],
+    "place_facet": ["Ireland"],
     "lcc_sort": "PR-6061.00000000.E329 F67 2022",
-    "author_facet": [
-      "OL82155A Claire Keegan"
-    ],
+    "author_facet": ["OL82155A Claire Keegan"],
     "subject_key": [
       "fiction",
       "fiction_general",
@@ -176,9 +139,7 @@
       "9798885780742",
       "1728261945"
     ],
-    "author_name": [
-      "Sulari Gentill"
-    ],
+    "author_name": ["Sulari Gentill"],
     "book_description": "<b>In every person's story, there is something to hide...</b><br /><br />The ornate reading room at the Boston Public Library is quiet, until the tranquility is shattered by a woman's terrified scream. Security guards take charge immediately, instructing everyone inside to stay put until the threat is identified and contained. While they wait for the all-clear, four strangers, who'd happened to sit at the same table, pass the time in conversation and friendships are struck. Each has his or her own reasons for being in the reading room that morning—it just happens that one is a murderer.<br /><br />Award-winning author Sulari Gentill delivers a sharply thrilling read with <i>The Woman in the Library</i>, an unexpectedly twisty literary adventure that examines the complicated nature of friendship and shows us that words can be the most treacherous weapons of all.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631826249l/56803179._SY475_.jpg",
     "book_published": "2022",
@@ -200,22 +161,12 @@
     "title_suggest": "Woman in the Library",
     "title_sort": "Woman in the Library",
     "edition_count": 3,
-    "edition_key": [
-      "OL40115786M",
-      "OL34193878M",
-      "OL36088583M"
-    ],
-    "publish_date": [
-      "2022"
-    ],
-    "publish_year": [
-      2022
-    ],
+    "edition_key": ["OL40115786M", "OL34193878M", "OL36088583M"],
+    "publish_date": ["2022"],
+    "publish_year": [2022],
     "first_publish_year": 2022,
     "number_of_pages_median": 288,
-    "lcc": [
-      "PR-9619.40000000.G46W66 2022"
-    ],
+    "lcc": ["PR-9619.40000000.G46W66 2022"],
     "last_modified_i": 1675985381,
     "ebook_count_i": 0,
     "ebook_access": "no_ebook",
@@ -235,34 +186,16 @@
     "already_read_count": 1,
     "cover_edition_key": "OL36088583M",
     "cover_i": 12773970,
-    "publisher": [
-      "Poisoned Pen Press",
-      "Cengage Gale"
-    ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL7166541A"
-    ],
-    "subject": [
-      "English literature"
-    ],
-    "publisher_facet": [
-      "Cengage Gale",
-      "Poisoned Pen Press"
-    ],
-    "subject_facet": [
-      "English literature"
-    ],
+    "publisher": ["Poisoned Pen Press", "Cengage Gale"],
+    "language": ["eng"],
+    "author_key": ["OL7166541A"],
+    "subject": ["English literature"],
+    "publisher_facet": ["Cengage Gale", "Poisoned Pen Press"],
+    "subject_facet": ["English literature"],
     "_version_": 1759772114594824200,
     "lcc_sort": "PR-9619.40000000.G46W66 2022",
-    "author_facet": [
-      "OL7166541A Sulari Gentill"
-    ],
-    "subject_key": [
-      "english_literature"
-    ]
+    "author_facet": ["OL7166541A Sulari Gentill"],
+    "subject_key": ["english_literature"]
   },
   {
     "title": "Local Woman Missing",
@@ -286,9 +219,7 @@
       "9780008916459",
       "9781488073960"
     ],
-    "author_name": [
-      "Mary Kubica"
-    ],
+    "author_name": ["Mary Kubica"],
     "book_description": "<b>People don’t just disappear without a trace....</b><br /><br />Shelby Tebow is the first to go missing. Not long after, Meredith Dickey and her six-year-old daughter, Delilah, vanish just blocks away from where Shelby was last seen, striking fear into their once-peaceful community. Are these incidents connected? After an elusive search that yields more questions than answers, the case eventually goes cold.<br /><br />Now, 11 years later, Delilah shockingly returns. Everyone wants to know what happened to her, but no one is prepared for what they’ll find....<br /><br />In this smart and chilling thriller, master of suspense and <i>New York Times</i> best-selling author Mary Kubica takes domestic secrets to a whole new level, showing that some people will stop at nothing to keep the truth buried.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1605828061l/54737068.jpg",
     "book_published": "2021",
@@ -332,14 +263,10 @@
       "May 26, 2021",
       "Jun 10, 2021"
     ],
-    "publish_year": [
-      2021
-    ],
+    "publish_year": [2021],
     "first_publish_year": 2021,
     "number_of_pages_median": 177,
-    "lcc": [
-      "PS-3611.00000000.U23"
-    ],
+    "lcc": ["PS-3611.00000000.U23"],
     "last_modified_i": 1670457464,
     "ebook_count_i": 0,
     "ebook_access": "no_ebook",
@@ -367,15 +294,9 @@
       "Harlequin Audio and Blackstone Publishing",
       "Harlequin Enterprises ULC"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL7290097A"
-    ],
-    "subject": [
-      "American literature"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL7290097A"],
+    "subject": ["American literature"],
     "publisher_facet": [
       "HQ",
       "Harlequin Audio and Blackstone Publishing",
@@ -384,17 +305,11 @@
       "Park Row",
       "Thorndike Press Large Print"
     ],
-    "subject_facet": [
-      "American literature"
-    ],
+    "subject_facet": ["American literature"],
     "_version_": 1759769584401907700,
     "lcc_sort": "PS-3611.00000000.U23",
-    "author_facet": [
-      "OL7290097A Mary Kubica"
-    ],
-    "subject_key": [
-      "american_literature"
-    ]
+    "author_facet": ["OL7290097A Mary Kubica"],
+    "subject_key": ["american_literature"]
   },
   {
     "title": "We Were Liars",
@@ -422,9 +337,7 @@
       "0385390092",
       "038574126X"
     ],
-    "author_name": [
-      "E. Lockhart"
-    ],
+    "author_name": ["E. Lockhart"],
     "book_description": "A beautiful and distinguished family.<br />A private island.<br />A brilliant, damaged girl; a passionate, political boy.<br />A group of four friends—the Liars—whose friendship turns destructive.<br />A revolution. An accident. A secret.<br />Lies upon lies.<br />True love.<br />The truth.<br /> <br /><i>We Were Liars</i> is a modern, sophisticated suspense novel from <i>New York Times</i> bestselling author, National Book Award finalist, and Printz Award honoree E. Lockhart. <br /><br />Read it.<br /><br />And if anyone asks you how it ends, just LIE.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402749479l/16143347.jpg",
     "book_published": "2014",
@@ -504,25 +417,12 @@
       "Mar 10, 2014",
       "May 23, 2017"
     ],
-    "publish_year": [
-      2017,
-      2018,
-      2014
-    ],
+    "publish_year": [2017, 2018, 2014],
     "first_publish_year": 2014,
     "number_of_pages_median": 240,
-    "lccn": [
-      "2013042127",
-      "2021351164"
-    ],
-    "publish_place": [
-      "New York, NY, USA",
-      "New York"
-    ],
-    "oclc": [
-      "863100393",
-      "962354621"
-    ],
+    "lccn": ["2013042127", "2021351164"],
+    "publish_place": ["New York, NY, USA", "New York"],
+    "oclc": ["863100393", "962354621"],
     "lcc": [
       "PZ-0007.00000000.L79757We 2014",
       "PZ-0007.00000000.L79757 We 2017",
@@ -534,10 +434,7 @@
     "ebook_access": "borrowable",
     "has_fulltext": true,
     "public_scan_b": false,
-    "ia": [
-      "wewereliars0000lock_y8k2",
-      "wewereliars0000lock"
-    ],
+    "ia": ["wewereliars0000lock_y8k2", "wewereliars0000lock"],
     "ia_collection": [
       "barryuniversity-ol",
       "cnusd-ol",
@@ -580,12 +477,8 @@
       "Random House Children's Books",
       "Hot Key Books"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL1388564A"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL1388564A"],
     "subject": [
       "Love",
       "Wealth",
@@ -617,14 +510,8 @@
       "New York Times reviewed",
       "Young adult fiction"
     ],
-    "id_amazon": [
-      "1524764582",
-      ""
-    ],
-    "ia_box_id": [
-      "IA40888801",
-      "IA1759420"
-    ],
+    "id_amazon": ["1524764582", ""],
+    "ia_box_id": ["IA40888801", "IA1759420"],
     "publisher_facet": [
       "Delacorte Press",
       "Ember",
@@ -666,9 +553,7 @@
     ],
     "_version_": 1762944074754556000,
     "lcc_sort": "PZ-0007.00000000.L79757 We 2017",
-    "author_facet": [
-      "OL1388564A E. Lockhart"
-    ],
+    "author_facet": ["OL1388564A E. Lockhart"],
     "subject_key": [
       "amerikanisches_englisch",
       "amnesia",
@@ -701,7 +586,7 @@
     ]
   },
   {
-    "title": "Stillhouse Lake (Stillhouse Lake, #1)",
+    "title": "Stillhouse Lake",
     "link": "https://www.goodreads.com/review/show/5487040605?utm_medium=api&utm_source=rss",
     "pubDate": "Sat, 15 Apr 2023 04:52:17 -0700",
     "isbn": "",
@@ -735,9 +620,7 @@
       "0525505318",
       "9780525505310"
     ],
-    "author_name": [
-      "Shari Lapena"
-    ],
+    "author_name": ["Shari Lapena"],
     "book_description": "<b>You never know what's happening on the other side of the wall.</b><br /><br />Your neighbour told you that she didn't want your six-month-old daughter at the dinner party. Nothing personal, she just couldn't stand her crying.<br /><br />Your husband said it would be fine. After all, you only live next door. You'll have the baby monitor and you'll take it in turns to go back every half hour.<br /><br />Your daughter was sleeping when you checked on her last. But now, as you race up the stairs in your deathly quiet house, your worst fears are realized. She's gone.<br /><br />You've never had to call the police before. But now they're in your home, and who knows what they'll find there.<br /><br /><b>What would <i>you </i>be capable of, when pushed past your limit?</b>",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471502242l/28815474._SY475_.jpg",
     "book_published": "2016",
@@ -788,13 +671,7 @@
       "2019-02-26",
       "Aug 23, 2016"
     ],
-    "publish_year": [
-      2016,
-      2018,
-      2017,
-      2022,
-      2019
-    ],
+    "publish_year": [2016, 2018, 2017, 2022, 2019],
     "first_publish_year": 2016,
     "number_of_pages_median": 336,
     "last_modified_i": 1677593930,
@@ -826,12 +703,8 @@
       "Transworld Publishers Limited",
       "Anchor Canada"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL7369617A"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL7369617A"],
     "subject": [
       "nyt:combined-print-and-e-book-fiction=2018-05-27",
       "New York Times bestseller",
@@ -863,9 +736,7 @@
       "nyt:combined-print-and-e-book-fiction=2018-05-27"
     ],
     "_version_": 1769453399045046300,
-    "author_facet": [
-      "OL7369617A Shari Lapena"
-    ],
+    "author_facet": ["OL7369617A Shari Lapena"],
     "subject_key": [
       "fiction_family_life",
       "fiction_family_life_general",
@@ -897,9 +768,7 @@
       "1786893169",
       "9781786893161"
     ],
-    "author_name": [
-      "Matt Haig"
-    ],
+    "author_name": ["Matt Haig"],
     "book_description": "<b>\"She smiled a soft, troubled smile and I felt the whole world slipping away, and I wanted to slip with it, to go wherever she was going... I had existed whole years without her, but that was all it had been. An existence. A book with no words.\"</b><br /><br />Tom Hazard has just moved back to London, his old home, to settle down and become a high school history teacher. And on his first day at school, he meets a captivating French teacher at his school who seems fascinated by him. But Tom has a dangerous secret. He may look like an ordinary 41-year-old, but owing to a rare condition, he's been alive for centuries. Tom has lived history--performing with Shakespeare, exploring the high seas with Captain Cook, and sharing cocktails with Fitzgerald. Now, he just wants an ordinary life.<br /><br />Unfortunately for Tom, the Albatross Society, the secretive group which protects people like Tom, has one rule: Never fall in love. As painful memories of his past and the erratic behavior of the Society's watchful leader threaten to derail his new life and romance, the one thing he can't have just happens to be the one thing that might save him. Tom will have to decide once and for all whether to remain stuck in the past, or finally begin living in the present.<br /><br /><i>How to Stop Time</i> tells a love story across the ages--and for the ages--about a man lost in time, the woman who could save him, and the lifetimes it can take to learn how to live. It is a bighearted, wildly original novel about losing and finding yourself, the inevitability of change, and how with enough time to learn, we just might find happiness.<br /><br />Soon to be a major motion picture starring Benedict Cumberbatch.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645729201l/45152372._SY475_.jpg",
     "book_published": "2017",
@@ -942,17 +811,10 @@
       "Feb 06, 2018",
       "Jun 19, 2017"
     ],
-    "publish_year": [
-      2019,
-      2018,
-      2017
-    ],
+    "publish_year": [2019, 2018, 2017],
     "first_publish_year": 2017,
     "number_of_pages_median": 352,
-    "lcc": [
-      "PR-6108.00000000.A39H69 2019",
-      "PR-6108.00000000.A39"
-    ],
+    "lcc": ["PR-6108.00000000.A39H69 2019", "PR-6108.00000000.A39"],
     "last_modified_i": 1685893214,
     "ebook_count_i": 0,
     "ebook_access": "no_ebook",
@@ -980,12 +842,8 @@
       "Penguin Books",
       "Canongate Books Ltd"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL1416857A"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL1416857A"],
     "subject": [
       "Fiction, science fiction, general",
       "Fiction, fantasy, general"
@@ -1004,16 +862,14 @@
     ],
     "_version_": 1767787164081324000,
     "lcc_sort": "PR-6108.00000000.A39H69 2019",
-    "author_facet": [
-      "OL1416857A Matt Haig"
-    ],
+    "author_facet": ["OL1416857A Matt Haig"],
     "subject_key": [
       "fiction_fantasy_general",
       "fiction_science_fiction_general"
     ]
   },
   {
-    "title": "Garden Spells (Waverley Family, #1)",
+    "title": "Garden Spells",
     "link": "https://www.goodreads.com/review/show/5323679612?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 21 Mar 2023 06:49:44 -0700",
     "isbn": "0553805487",
@@ -1063,11 +919,7 @@
       "9780751583700",
       "0751583707"
     ],
-    "author_name": [
-      "Jason Rekulak",
-      "Will Staehle",
-      "Doogie Horner"
-    ],
+    "author_name": ["Jason Rekulak", "Will Staehle", "Doogie Horner"],
     "book_description": "<b>From Edgar Award-finalist Jason Rekulak comes a wildly inventive spin on the supernatural thriller, for fans of <i>Stranger Things</i> and Riley Sager, about a woman working as a nanny for a young boy with strange and disturbing secrets.</b><br /><br />Mallory Quinn is fresh out of rehab when she takes a job as a babysitter for Ted and Caroline Maxwell. She is to look after their five-year-old son, Teddy.<br /><br />Mallory immediately loves it. She has her own living space, goes out for nightly runs, and has the stability she craves. And she sincerely bonds with Teddy, a sweet, shy boy who is never without his sketchbook and pencil. His drawings are the usual fare: trees, rabbits, balloons. But one day, he draws something different: a man in a forest, dragging a woman’s lifeless body.<br /><br />Then, Teddy’s artwork becomes increasingly sinister, and his stick figures quickly evolve into lifelike sketches well beyond the ability of any five-year-old. Mallory begins to wonder if these are glimpses of a long-unsolved murder, perhaps relayed by a supernatural force.<br /><br />Knowing just how crazy it all sounds, Mallory nevertheless sets out to decipher the images and save Teddy before it’s too late.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635260162l/58724923.jpg",
     "book_published": "2022",
@@ -1105,23 +957,12 @@
       "OL39744824M",
       "OL38014363M"
     ],
-    "publish_date": [
-      "2023",
-      "2022"
-    ],
-    "publish_year": [
-      2022,
-      2023
-    ],
+    "publish_date": ["2023", "2022"],
+    "publish_year": [2022, 2023],
     "first_publish_year": 2022,
     "number_of_pages_median": 432,
-    "publish_place": [
-      "Waterville, USA"
-    ],
-    "lcc": [
-      "PS-3618.00000000.E57275",
-      "PS-3618.00000000.E57275H53"
-    ],
+    "publish_place": ["Waterville, USA"],
+    "lcc": ["PS-3618.00000000.E57275", "PS-3618.00000000.E57275H53"],
     "last_modified_i": 1675227719,
     "ebook_count_i": 0,
     "ebook_access": "no_ebook",
@@ -1147,14 +988,8 @@
       "St. Martin's Press",
       "Thorndike Press, a part of Gale, a Cengage Company"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL2843220A",
-      "OL9583539A",
-      "OL6884186A"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL2843220A", "OL9583539A", "OL6884186A"],
     "publisher_facet": [
       "Flatiron Books",
       "Little, Brown Book Group Limited",
@@ -1201,9 +1036,7 @@
       "1101904240",
       "9781410491459"
     ],
-    "author_name": [
-      "Blake Crouch"
-    ],
+    "author_name": ["Blake Crouch"],
     "book_description": "<b>A mindbending, relentlessly surprising thriller from the author of the bestselling Wayward Pines trilogy. </b><br /><br />Jason Dessen is walking home through the chilly Chicago streets one night, looking forward to a quiet evening in front of the fireplace with his wife, Daniela, and their son, Charlie—when his reality shatters.<br /><br /><i>\"Are you happy with your life?\"</i><br /><br />Those are the last words Jason Dessen hears before the masked abductor knocks him unconscious. <br /><br />Before he awakens to find himself strapped to a gurney, surrounded by strangers in hazmat suits. <br /><br />Before a man Jason's never met smiles down at him and says, \"Welcome back, my friend.\" <br /><br />In this world he's woken up to, Jason's life is not the one he knows. His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor, but a celebrated genius who has achieved something remarkable. Something impossible.<br /><br />Is it this world or the other that's the dream? <br /><br />And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey more wondrous and horrifying than anything he could've imagined—one that will force him to confront the darkest parts of himself even as he battles a terrifying, seemingly unbeatable foe.<br /><br /><b><i>Dark Matter</i> is a brilliantly plotted tale that is at once sweeping and intimate, mind-bendingly strange and profoundly human--a relentlessly surprising science-fiction thriller about choices, paths not taken, and how far we'll go to claim the lives we dream of.</b>",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY475_.jpg",
     "book_published": "2016",
@@ -1279,21 +1112,11 @@
       "2017",
       "2016"
     ],
-    "publish_year": [
-      2017,
-      2018,
-      2016
-    ],
+    "publish_year": [2017, 2018, 2016],
     "first_publish_year": 2016,
     "number_of_pages_median": 384,
-    "lccn": [
-      "2016024643",
-      "2015040107"
-    ],
-    "oclc": [
-      "948562579",
-      "929917067"
-    ],
+    "lccn": ["2016024643", "2015040107"],
+    "oclc": ["948562579", "929917067"],
     "lcc": [
       "PS-3603.00000000.R68D37 2016",
       "PS-3603.00000000.R68 D37 2016b",
@@ -1301,23 +1124,14 @@
       "PS-3603.00000000.R68",
       "PS-3603.00000000.R68 D37 2016"
     ],
-    "ddc": [
-      "813.6"
-    ],
+    "ddc": ["813.6"],
     "last_modified_i": 1678178647,
     "ebook_count_i": 2,
     "ebook_access": "borrowable",
     "has_fulltext": true,
     "public_scan_b": false,
-    "ia": [
-      "darkmatter0000crou",
-      "darkmatternovel0000crou_n9e8"
-    ],
-    "ia_collection": [
-      "inlibrary",
-      "internetarchivebooks",
-      "printdisabled"
-    ],
+    "ia": ["darkmatter0000crou", "darkmatternovel0000crou_n9e8"],
+    "ia_collection": ["inlibrary", "internetarchivebooks", "printdisabled"],
     "ia_collection_s": "inlibrary;internetarchivebooks;printdisabled",
     "lending_edition_s": "OL27222609M",
     "lending_identifier_s": "darkmatter0000crou",
@@ -1336,9 +1150,7 @@
     "already_read_count": 58,
     "cover_edition_key": "OL25936656M",
     "cover_i": 7436634,
-    "first_sentence": [
-      "I love Thursday nights."
-    ],
+    "first_sentence": ["I love Thursday nights."],
     "publisher": [
       "Crown",
       "Pan Books",
@@ -1350,12 +1162,8 @@
       "Macmillan",
       "Random House Audio"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL1433920A"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL1433920A"],
     "subject": [
       "Kidnapping victims",
       "Fiction",
@@ -1399,10 +1207,7 @@
       "Q116191082",
       "Q116191853"
     ],
-    "ia_box_id": [
-      "IA40364421",
-      "IA40603509"
-    ],
+    "ia_box_id": ["IA40364421", "IA40603509"],
     "publisher_facet": [
       "Broadway Books",
       "Crown",
@@ -1437,9 +1242,7 @@
     ],
     "_version_": 1759902890835574800,
     "lcc_sort": "PS-3603.00000000.R68 D37 2016b",
-    "author_facet": [
-      "OL1433920A Blake Crouch"
-    ],
+    "author_facet": ["OL1433920A Blake Crouch"],
     "subject_key": [
       "fiction",
       "fiction__science_fiction",
@@ -1464,7 +1267,7 @@
     "ddc_sort": "813.6"
   },
   {
-    "title": "The Five Dysfunctions of a Team: A Leadership Fable",
+    "title": "The Five Dysfunctions of a Team",
     "link": "https://www.goodreads.com/review/show/5292299379?utm_medium=api&utm_source=rss",
     "pubDate": "Fri, 27 Jan 2023 09:43:50 -0800",
     "isbn": "0787960756",
@@ -1479,7 +1282,7 @@
     "isoDate": "2023-01-27T17:43:50.000Z"
   },
   {
-    "title": "Before Your Memory Fades (Before the Coffee Gets Cold, #3)",
+    "title": "Before Your Memory Fades",
     "link": "https://www.goodreads.com/review/show/5253066452?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 10 Jan 2023 18:55:17 -0800",
     "isbn": "0369722698",
@@ -1494,7 +1297,7 @@
     "isoDate": "2023-01-11T02:55:17.000Z"
   },
   {
-    "title": "Tales from the Café (Before the Coffee Gets Cold, #2)",
+    "title": "Tales from the Café",
     "link": "https://www.goodreads.com/review/show/5194139716?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 27 Dec 2022 12:13:52 -0800",
     "isbn": "1529050863",
@@ -1509,7 +1312,7 @@
     "isoDate": "2022-12-27T20:13:52.000Z"
   },
   {
-    "title": "பொன்னியின் செல்வன், பாகம் 1: புது வெள்ளம் (Ponniyin Selvan, Part 1)",
+    "title": "பொன்னியின் செல்வன், பாகம் 1: புது வெள்ளம்",
     "link": "https://www.goodreads.com/review/show/5143006797?utm_medium=api&utm_source=rss",
     "pubDate": "Sun, 04 Dec 2022 05:59:36 -0800",
     "isbn": "",
@@ -1541,9 +1344,7 @@
       "1432861271",
       "1780896417"
     ],
-    "author_name": [
-      "Lisa Jewell"
-    ],
+    "author_name": ["Lisa Jewell"],
     "book_description": "THEN<br />She was fifteen, her mother's golden girl. She had her whole life ahead of her. And then, in the blink of an eye, Ellie was gone. <br /><br />NOW <br />It’s been ten years since Ellie disappeared, but Laurel has never given up hope of finding her daughter.<br /><br />And then one day a charming and charismatic stranger called Floyd walks into a café and sweeps Laurel off her feet. <br /><br />Before too long she’s staying the night at this house and being introduced to his nine year old daughter. <br /><br />Poppy is precocious and pretty - and meeting her completely takes Laurel's breath away. <br /><br />Because Poppy is the spitting image of Ellie when she was that age. And now all those unanswered questions that have haunted Laurel come flooding back. <br /><br />What happened to Ellie? Where did she go? <br /><br />Who still has secrets to hide?",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523891273l/35297426.jpg",
     "book_published": "2017",
@@ -1588,47 +1389,25 @@
       "OL26962520M",
       "OL27339825M"
     ],
-    "publish_date": [
-      "2017",
-      "2018",
-      "Jun 02, 2019"
-    ],
-    "publish_year": [
-      2017,
-      2018,
-      2019
-    ],
+    "publish_date": ["2017", "2018", "Jun 02, 2019"],
+    "publish_year": [2017, 2018, 2019],
     "first_publish_year": 2017,
     "number_of_pages_median": 458,
-    "lccn": [
-      "2018009663"
-    ],
-    "oclc": [
-      "993206315",
-      "1027728908"
-    ],
+    "lccn": ["2018009663"],
+    "oclc": ["993206315", "1027728908"],
     "lcc": [
       "PR-6068.00000000 E95T44 2017",
       "PR-6060.00000000.E95 T48 2018b",
       "PR-6060.00000000.E95"
     ],
-    "ddc": [
-      "823.914",
-      "823.92"
-    ],
+    "ddc": ["823.914", "823.92"],
     "last_modified_i": 1682735943,
     "ebook_count_i": 1,
     "ebook_access": "borrowable",
     "has_fulltext": true,
     "public_scan_b": false,
-    "ia": [
-      "thenshewasgone0000jewe"
-    ],
-    "ia_collection": [
-      "inlibrary",
-      "internetarchivebooks",
-      "printdisabled"
-    ],
+    "ia": ["thenshewasgone0000jewe"],
+    "ia_collection": ["inlibrary", "internetarchivebooks", "printdisabled"],
     "ia_collection_s": "inlibrary;internetarchivebooks;printdisabled",
     "lending_edition_s": "OL27885893M",
     "lending_identifier_s": "thenshewasgone0000jewe",
@@ -1653,12 +1432,8 @@
       "Large Print Press",
       "Century"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL28261A"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL28261A"],
     "subject": [
       "Divorced women",
       "Life change events",
@@ -1676,12 +1451,8 @@
       "Fiction, family life, general",
       "Fiction, thrillers, suspense"
     ],
-    "id_amazon": [
-      "1432861271"
-    ],
-    "ia_box_id": [
-      "IA1747321"
-    ],
+    "id_amazon": ["1432861271"],
+    "ia_box_id": ["IA1747321"],
     "publisher_facet": [
       "Century",
       "Large Print Press",
@@ -1707,9 +1478,7 @@
     ],
     "_version_": 1764476530007736300,
     "lcc_sort": "PR-6060.00000000.E95 T48 2018b",
-    "author_facet": [
-      "OL28261A Lisa Jewell"
-    ],
+    "author_facet": ["OL28261A Lisa Jewell"],
     "subject_key": [
       "cold_cases_(criminal_investigation)",
       "divorced_women",
@@ -1765,9 +1534,7 @@
       "9798885854863",
       "153874211X"
     ],
-    "author_name": [
-      "Colleen Hoover"
-    ],
+    "author_name": ["Colleen Hoover"],
     "book_description": "Lowen Ashleigh is a struggling writer on the brink of financial ruin when she accepts the job offer of a lifetime. Jeremy Crawford, husband of bestselling author Verity Crawford, has hired Lowen to complete the remaining books in a successful series his injured wife is unable to finish.<br /><br />Lowen arrives at the Crawford home, ready to sort through years of Verity's notes and outlines, hoping to find enough material to get her started. What Lowen doesn't expect to uncover in the chaotic office is an unfinished autobiography Verity never intended for anyone to read. Page after page of bone-chilling admissions, including Verity's recollection of what really happened the day her daughter died.<br /><br />Lowen decides to keep the manuscript hidden from Jeremy, knowing its contents would devastate the already grieving father. But as Lowen's feelings for Jeremy begin to intensify, she recognizes all the ways she could benefit if he were to read his wife's words. After all, no matter how devoted Jeremy is to his injured wife, a truth this horrifying would make it impossible for him to continue to love her.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634158558l/59344312._SY475_.jpg",
     "book_published": "2018",
@@ -1841,13 +1608,7 @@
       "26 abril 2022",
       "Mar 13, 2020"
     ],
-    "publish_year": [
-      2018,
-      2021,
-      2019,
-      2020,
-      2022
-    ],
+    "publish_year": [2018, 2021, 2019, 2020, 2022],
     "first_publish_year": 2018,
     "number_of_pages_median": 352,
     "publish_place": [
@@ -1858,15 +1619,8 @@
       "United States",
       "Kraków, Poland"
     ],
-    "oclc": [
-      "1345696824",
-      "1125347426",
-      "1337109283",
-      "1345471744"
-    ],
-    "ddc": [
-      "813.6"
-    ],
+    "oclc": ["1345696824", "1125347426", "1337109283", "1345471744"],
+    "ddc": ["813.6"],
     "last_modified_i": 1683186185,
     "ebook_count_i": 0,
     "ebook_access": "no_ebook",
@@ -1900,16 +1654,8 @@
       "Audible Studios on Brilliance Audio",
       "Independently published"
     ],
-    "language": [
-      "eng",
-      "pol",
-      "ger",
-      "tur",
-      "spa"
-    ],
-    "author_key": [
-      "OL7315784A"
-    ],
+    "language": ["eng", "pol", "ger", "tur", "spa"],
+    "author_key": ["OL7315784A"],
     "author_alternative_name": [
       "Hoover  Colleen",
       "C. Hoover",
@@ -1930,12 +1676,8 @@
       "Romance",
       "collectionid:nyt2020s"
     ],
-    "id_amazon": [
-      "B08F7G2BW5"
-    ],
-    "id_goodreads": [
-      "45695821"
-    ],
+    "id_amazon": ["B08F7G2BW5"],
+    "id_goodreads": ["45695821"],
     "publisher_facet": [
       "Audible Studios on Brilliance Audio",
       "Colleen Hoover",
@@ -1961,9 +1703,7 @@
       "collectionid:nyt2020s"
     ],
     "_version_": 1764948641166917600,
-    "author_facet": [
-      "OL7315784A Colleen Hoover"
-    ],
+    "author_facet": ["OL7315784A Colleen Hoover"],
     "subject_key": [
       "collectionidnyt2020s",
       "family_secrets_in_fiction",
@@ -2000,9 +1740,7 @@
       "9780008399849",
       "0008399840"
     ],
-    "author_name": [
-      "Catriona Silvey"
-    ],
+    "author_name": ["Catriona Silvey"],
     "book_description": "<i>Two people. Infinite lifetimes. One impossible choice.</i><br /><br />Thora and Santi are strangers in a foreign city when a chance encounter intertwines their fates. At once, they recognize in each other a kindred spirit—someone who shares their insatiable curiosity, who is longing for more in life than the cards they’ve been dealt. Only days later, though, a tragic accident cuts their story short.<br /><br />But this is only one of the many connections they share. Like satellites trapped in orbit around each other, Thora and Santi are destined to meet again: as a teacher and prodigy student; a caretaker and dying patient; a cynic and a believer. In numerous lives they become friends, colleagues, lovers, and enemies. But as blurred memories and strange patterns compound, Thora and Santi come to a shocking revelation—they must discover the truth of their mysterious attachment before their many lives come to one, final end.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613413224l/54698696.jpg",
     "book_published": "2021",
@@ -2040,20 +1778,11 @@
       "OL35857061M",
       "OL36097843M"
     ],
-    "publish_date": [
-      "2022",
-      "2021",
-      "Apr 27, 2021"
-    ],
-    "publish_year": [
-      2022,
-      2021
-    ],
+    "publish_date": ["2022", "2021", "Apr 27, 2021"],
+    "publish_year": [2022, 2021],
     "first_publish_year": 2021,
     "number_of_pages_median": 1,
-    "lcc": [
-      "PR-6119.00000000"
-    ],
+    "lcc": ["PR-6119.00000000"],
     "last_modified_i": 1670408060,
     "ebook_count_i": 0,
     "ebook_access": "no_ebook",
@@ -2071,12 +1800,8 @@
       "William Morrow & Company",
       "William Morrow"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL8925294A"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL8925294A"],
     "publisher_facet": [
       "HarperCollins B and Blackstone Publishing",
       "HarperCollins Publishers",
@@ -2085,9 +1810,7 @@
     ],
     "_version_": 1759768379073233000,
     "lcc_sort": "PR-6119.00000000",
-    "author_facet": [
-      "OL8925294A Catriona Silvey"
-    ]
+    "author_facet": ["OL8925294A Catriona Silvey"]
   },
   {
     "title": "The Strangers We Know",
@@ -2126,9 +1849,7 @@
       "9781398705432",
       "0062910698"
     ],
-    "author_name": [
-      "Peng Shepherd"
-    ],
+    "author_name": ["Peng Shepherd"],
     "book_description": "<i>What is the purpose of a map?</i><br /><br />Nell Young’s whole life and greatest passion is cartography. Her father, Dr. Daniel Young, is a legend in the field and Nell’s personal hero. But she hasn’t seen or spoken to him ever since he cruelly fired her and destroyed her reputation after an argument over an old, cheap gas station highway map.<br /><br />But when Dr. Young is found dead in his office at the New York Public Library, with the very same seemingly worthless map hidden in his desk, Nell can’t resist investigating. To her surprise, she soon discovers that the map is incredibly valuable and exceedingly rare. In fact, she may now have the only copy left in existence... because a mysterious collector has been hunting down and destroying every last one—along with anyone who gets in the way.<br /><br />But why?<br /><br />To answer that question, Nell embarks on a dangerous journey to reveal a dark family secret and discovers the true power that lies in maps...<br /><br />From the critically acclaimed author of <i>The Book of M</i>, a highly imaginative thriller about a young woman who discovers that a strange map in her deceased father’s belongings holds an incredible, deadly secret—one that will lead her on an extraordinary adventure and to the truth about her family’s dark history.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634915484l/55004093.jpg",
     "book_published": "2022",
@@ -2164,22 +1885,11 @@
       "OL39558396M",
       "OL38585342M"
     ],
-    "publish_date": [
-      "May 25, 2021",
-      "Mar 21, 2023",
-      "2022",
-      "2023"
-    ],
-    "publish_year": [
-      2021,
-      2023,
-      2022
-    ],
+    "publish_date": ["May 25, 2021", "Mar 21, 2023", "2022", "2023"],
+    "publish_year": [2021, 2023, 2022],
     "first_publish_year": 2021,
     "number_of_pages_median": 400,
-    "lcc": [
-      "PS-3619.00000000.H4574C37 2022"
-    ],
+    "lcc": ["PS-3619.00000000.H4574C37 2022"],
     "last_modified_i": 1686999072,
     "ebook_count_i": 0,
     "ebook_access": "no_ebook",
@@ -2207,12 +1917,8 @@
       "William Morrow & Company",
       "HarperLuxe"
     ],
-    "language": [
-      "eng"
-    ],
-    "author_key": [
-      "OL7537193A"
-    ],
+    "language": ["eng"],
+    "author_key": ["OL7537193A"],
     "publisher_facet": [
       "HarperCollins Publishers",
       "HarperLuxe",
@@ -2223,9 +1929,7 @@
     ],
     "_version_": 1769205775049162800,
     "lcc_sort": "PS-3619.00000000.H4574C37 2022",
-    "author_facet": [
-      "OL7537193A Peng Shepherd"
-    ]
+    "author_facet": ["OL7537193A Peng Shepherd"]
   },
   {
     "title": "My Evil Mother",
@@ -2333,7 +2037,7 @@
     "isoDate": "2022-01-16T16:29:52.000Z"
   },
   {
-    "title": "Sita: Warrior of Mithila (Ram Chandra, #2)",
+    "title": "Sita: Warrior of Mithila",
     "link": "https://www.goodreads.com/review/show/4423414459?utm_medium=api&utm_source=rss",
     "pubDate": "Thu, 30 Dec 2021 07:35:00 -0800",
     "isbn": "9386224585",
@@ -2348,7 +2052,7 @@
     "isoDate": "2021-12-30T15:35:00.000Z"
   },
   {
-    "title": "Scion of Ikshvaku (Ram Chandra, #1)",
+    "title": "Scion of Ikshvaku",
     "link": "https://www.goodreads.com/review/show/4319226357?utm_medium=api&utm_source=rss",
     "pubDate": "Wed, 03 Nov 2021 10:21:12 -0700",
     "isbn": "9385152149",
@@ -2468,7 +2172,7 @@
     "isoDate": "2021-06-22T03:49:08.000Z"
   },
   {
-    "title": "Before the Coffee Gets Cold (Before the Coffee Gets Cold, #1)",
+    "title": "Before the Coffee Gets Cold",
     "link": "https://www.goodreads.com/review/show/4056242405?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 15 Jun 2021 09:15:09 -0700",
     "isbn": "1529029589",
@@ -2513,7 +2217,7 @@
     "isoDate": "2021-05-30T03:08:59.000Z"
   },
   {
-    "title": "Ikigai: The Japanese Secret to a Long and Happy Life / The Little Book of Lykke / Lagom: The Swedish Art of Balanced Living",
+    "title": "Ikigai",
     "link": "https://www.goodreads.com/review/show/3377926970?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 25 May 2021 09:54:29 -0700",
     "isbn": "9123672609",
@@ -2528,7 +2232,7 @@
     "isoDate": "2021-05-25T16:54:29.000Z"
   },
   {
-    "title": "Make Your Bed: Little Things That Can Change Your Life...And Maybe the World",
+    "title": "Make Your Bed",
     "link": "https://www.goodreads.com/review/show/3603909312?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 25 May 2021 09:54:27 -0700",
     "isbn": "",
@@ -2558,7 +2262,7 @@
     "isoDate": "2021-05-25T16:54:22.000Z"
   },
   {
-    "title": "The Mastery of Self: A Toltec Guide to Personal Freedom",
+    "title": "The Mastery of Self",
     "link": "https://www.goodreads.com/review/show/3581203848?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 25 May 2021 09:54:20 -0700",
     "isbn": "1938289536",
@@ -2573,7 +2277,7 @@
     "isoDate": "2021-05-25T16:54:20.000Z"
   },
   {
-    "title": "The Oath of the Vayuputras (Shiva Trilogy, #3)",
+    "title": "The Oath of the Vayuputras",
     "link": "https://www.goodreads.com/review/show/3858791365?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 25 May 2021 09:54:18 -0700",
     "isbn": "9382618341",
@@ -2588,7 +2292,7 @@
     "isoDate": "2021-05-25T16:54:18.000Z"
   },
   {
-    "title": "The Secret of the Nagas (Shiva Trilogy, #2)",
+    "title": "The Secret of the Nagas",
     "link": "https://www.goodreads.com/review/show/3823800597?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 25 May 2021 09:54:17 -0700",
     "isbn": "",
@@ -2618,7 +2322,7 @@
     "isoDate": "2021-05-25T16:54:15.000Z"
   },
   {
-    "title": "The Compound Effect: Jumpstart Your Income, Your Life, Your Success",
+    "title": "The Compound Effect:",
     "link": "https://www.goodreads.com/review/show/3326383510?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 25 May 2021 09:54:13 -0700",
     "isbn": "",
@@ -2633,7 +2337,7 @@
     "isoDate": "2021-05-25T16:54:13.000Z"
   },
   {
-    "title": "The Immortals of Meluha (Shiva Trilogy, #1)",
+    "title": "The Immortals of Meluha",
     "link": "https://www.goodreads.com/review/show/3807755345?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 25 May 2021 09:54:12 -0700",
     "isbn": "",
@@ -2693,7 +2397,7 @@
     "isoDate": "2021-05-25T16:54:05.000Z"
   },
   {
-    "title": "The Monk Who Sold His Ferrari: A Fable About Fulfilling Your Dreams and Reaching Your Destiny",
+    "title": "The Monk Who Sold His Ferrari",
     "link": "https://www.goodreads.com/review/show/3516101101?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 25 May 2021 09:53:59 -0700",
     "isbn": "0062515675",
@@ -2738,7 +2442,7 @@
     "isoDate": "2021-05-01T05:04:40.000Z"
   },
   {
-    "title": "Don't Sweat the Small Stuff ... and It's All Small Stuff: Simple Ways to Keep the Little Things From Taking Over Your Life",
+    "title": "Don't Sweat the Small Stuff",
     "link": "https://www.goodreads.com/review/show/3744486477?utm_medium=api&utm_source=rss",
     "pubDate": "Thu, 22 Apr 2021 08:10:13 -0700",
     "isbn": "073380084X",
@@ -2753,7 +2457,7 @@
     "isoDate": "2021-04-22T15:10:13.000Z"
   },
   {
-    "title": "Peace Is Every Step: The Path of Mindfulness in Everyday Life",
+    "title": "Peace Is Every Step",
     "link": "https://www.goodreads.com/review/show/3581145496?utm_medium=api&utm_source=rss",
     "pubDate": "Thu, 22 Apr 2021 08:09:30 -0700",
     "isbn": "0553351397",
@@ -2783,7 +2487,7 @@
     "isoDate": "2021-04-22T15:04:25.000Z"
   },
   {
-    "title": "Asura: Tale Of The Vanquished, The Story of Ravana and His People",
+    "title": "Asura",
     "link": "https://www.goodreads.com/review/show/3912861083?utm_medium=api&utm_source=rss",
     "pubDate": "Sun, 28 Mar 2021 02:35:14 -0700",
     "isbn": "938157605X",
@@ -2813,7 +2517,7 @@
     "isoDate": "2020-10-19T16:04:46.000Z"
   },
   {
-    "title": "Blue Ocean Strategy: How to Create Uncontested Market Space and Make the Competition Irrelevant",
+    "title": "Blue Ocean Strategy",
     "link": "https://www.goodreads.com/review/show/3212660303?utm_medium=api&utm_source=rss",
     "pubDate": "Mon, 19 Oct 2020 09:04:38 -0700",
     "isbn": "1591396190",
@@ -2828,7 +2532,7 @@
     "isoDate": "2020-10-19T16:04:38.000Z"
   },
   {
-    "title": "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change",
+    "title": "The 7 Habits of Highly Effective People",
     "link": "https://www.goodreads.com/review/show/3212660018?utm_medium=api&utm_source=rss",
     "pubDate": "Mon, 19 Oct 2020 09:04:07 -0700",
     "isbn": "0743269519",
@@ -2918,7 +2622,7 @@
     "isoDate": "2020-05-09T06:00:41.000Z"
   },
   {
-    "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    "title": "Atomic Habits",
     "link": "https://www.goodreads.com/review/show/3291662045?utm_medium=api&utm_source=rss",
     "pubDate": "Thu, 07 May 2020 09:50:33 -0700",
     "isbn": "",
@@ -2933,7 +2637,7 @@
     "isoDate": "2020-05-07T16:50:33.000Z"
   },
   {
-    "title": "The Tipping Point: How Little Things Can Make a Big Difference",
+    "title": "The Tipping Point",
     "link": "https://www.goodreads.com/review/show/3274262977?utm_medium=api&utm_source=rss",
     "pubDate": "Sat, 25 Apr 2020 08:49:27 -0700",
     "isbn": "0316346624",
@@ -2963,7 +2667,7 @@
     "isoDate": "2020-04-11T09:37:57.000Z"
   },
   {
-    "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+    "title": "The Subtle Art of Not Giving a F*ck",
     "link": "https://www.goodreads.com/review/show/3212661351?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 24 Mar 2020 12:16:13 -0700",
     "isbn": "",
@@ -2978,7 +2682,7 @@
     "isoDate": "2020-03-24T19:16:13.000Z"
   },
   {
-    "title": "Zero to One: Notes on Startups, or How to Build the Future",
+    "title": "Zero to One",
     "link": "https://www.goodreads.com/review/show/3212680852?utm_medium=api&utm_source=rss",
     "pubDate": "Tue, 03 Mar 2020 01:48:42 -0800",
     "isbn": "0804139296",
