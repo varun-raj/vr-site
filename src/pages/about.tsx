@@ -31,7 +31,7 @@ const About = () => (
       <p>
         Been into the software industry for more than 10 years now, and the
         world of web technology kept me fasicnated, built most of my projects
-        with Javascript and Typescript echo system.
+        with Javascript and Typescript eco-system.
       </p>
       <p>
         I love traveling and exploring new places, mainly the trips that
@@ -51,7 +51,7 @@ const About = () => (
       <ul className="mt-3 flex flex-col space-y-4">
         <li>
           <h4 className="text-base font-normal">
-            <a href="https://hellonext.co" className="plain" target="_blank">
+            <a href="https://featureos.app" className="plain" target="_blank">
               featureOS.app
             </a>
           </h4>
