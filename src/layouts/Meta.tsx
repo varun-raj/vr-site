@@ -10,9 +10,19 @@ type IMetaProps = {
   canonical?: string;
 };
 
+const OG_IMAGE_MAP = {
+  '/': '/assets/og-images/home.png',
+  '/blog': '/assets/og-images/blog.png',
+  '/blog/[slug]': '/assets/og-images/blog.png',
+  '/about': '/assets/og-images/about.png',
+  '/press-kit': '/assets/og-images/press-kit.png',
+};
 const Meta = (props: IMetaProps) => {
   const router = useRouter();
-
+  const ogImage =
+    OG_IMAGE_MAP[router.pathname as keyof typeof OG_IMAGE_MAP] ||
+    `/og-meta.png`;
+  console.log(router.pathname, ogImage);
   return (
     <>
       <Head>
@@ -59,7 +69,7 @@ const Meta = (props: IMetaProps) => {
           site_name: AppConfig.site_name,
           images: [
             {
-              url: `${AppConfig.url}/og-meta.png`,
+              url: `${AppConfig.url}${ogImage}`,
               alt: AppConfig.title,
               height: 2034,
               width: 1068,
