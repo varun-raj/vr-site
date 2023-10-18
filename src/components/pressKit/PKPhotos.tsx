@@ -5,9 +5,10 @@ import Title from '../ui/Title';
 
 const images = [
   {
-    alt: 'Picture One',
-    src: '/assets/press-kit/picture_one.jpeg',
+    alt: 'Picture Three',
+    src: '/assets/press-kit/picture_three.jpg',
   },
+
   {
     alt: 'Picture Two',
     src: '/assets/press-kit/picture_two.JPG',

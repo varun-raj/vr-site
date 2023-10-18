@@ -138,5 +138,12 @@
     "description": "Handbrake is a free, open-source video transcoding software that allows users to convert video files from one format to another and adjust video quality settings.",
     "url": "https://handbrake.fr/",
     "icon": "/assets/images/handbrake.png"
+  },
+  {
+    "name": "Blender",
+    "category": "Hobby",
+    "description": "Blender is a free, open-source 3D creation suite that includes features such as modeling, rigging, animation, simulation, rendering, and motion tracking.",
+    "url": "https://www.blender.org/",
+    "icon": "/assets/images/blender.webp"
   }
 ]

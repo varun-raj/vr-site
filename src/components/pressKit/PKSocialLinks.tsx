@@ -2,6 +2,28 @@ import React from 'react';
 
 import Title from '../ui/Title';
 
+const LINKS = [
+  {
+    name: 'Twitter',
+    url: 'https://twitter.com/zathvarun',
+  },
+  {
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/varunrajm/',
+  },
+  {
+    name: 'Instagram',
+    url: 'https://www.instagram.com/varunraj22/',
+  },
+  {
+    name: 'Threads',
+    url: 'https://www.threads.net/varunraj22/',
+  },
+  {
+    name: 'Facebook',
+    url: 'https://www.facebook.com/zathvarun/',
+  },
+];
 export default function PKSocialLinks() {
   return (
     <>
@@ -10,46 +32,20 @@ export default function PKSocialLinks() {
         <p>Here are my social links that you can use to mention me or tag me</p>
       </div>
       <ul className="flex flex-col gap-3">
-        <li>
-          <p className="font-bold">Twitter (X)</p>
-          <p>
-            <a target="_blank" href="https://twitter.com/zathvarun">
-              https://twitter.com/zathvarun
-            </a>
-          </p>
-        </li>
-        <li>
-          <p className="font-bold">LinkedIn</p>
-          <p>
-            <a target="_blank" href="https://www.linkedin.com/in/varunrajm/">
-              https://www.linkedin.com/in/varunrajm/
-            </a>
-          </p>
-        </li>
-        <li>
-          <p className="font-bold">Instagram</p>
-          <p>
-            <a target="_blank" href="https://www.instagram.com/varunraj22/">
-              https://www.instagram.com/varunraj22/
-            </a>
-          </p>
-        </li>
-        <li>
-          <p className="font-bold">Threads</p>
-          <p>
-            <a target="_blank" href="https://www.threads.net/varunraj22/">
-              https://www.threads.net/varunraj22/
-            </a>
-          </p>
-        </li>
-        <li>
-          <p className="font-bold">Facebook</p>
-          <p>
-            <a target="_blank" href="https://www.facebook.com/zathvarun/">
-              https://www.facebook.com/zathvarun/
-            </a>
-          </p>
-        </li>
+        {LINKS.map((link) => (
+          <li key={link.url} className="group">
+            <p className="font-bold">{link.name}</p>
+            <p className="flex items-center justify-between">
+              <a
+                target="_blank"
+                className="plain font-mono text-sm"
+                href={link.url}
+              >
+                {link.url}
+              </a>
+            </p>
+          </li>
+        ))}
       </ul>
     </>
   );
