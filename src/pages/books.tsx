@@ -20,7 +20,7 @@ const BookItem = ({ book }: { book: IBook }) => {
         }}
       />
 
-      <h3 className="m-2 font-serif text-lg font-normal dark:text-white">
+      <h3 className="m-2 text-center text-lg font-normal dark:text-white">
         {title}
       </h3>
 
@@ -55,7 +55,7 @@ export default function BooksPage({ books }: IBooksPageProps) {
           </span>{' '}
           Books that I read
         </h1>
-        <h2 className="text-xl  font-normal">
+        <h2 className="text-xl font-normal">
           Mystery, Thriller, Fiction, Non-Fiction, Self-Help, and more.
         </h2>
 
