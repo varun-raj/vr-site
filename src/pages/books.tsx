@@ -1,11 +1,14 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { User } from '@phosphor-icons/react';
+import { pick } from 'contentlayer/client';
 import React from 'react';
 
 import booksData from '@/data/books-with-isbn.json';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 import { AppConfig } from '@/utils/AppConfig';
+
+import PageHeader from '../components/shared/PageHeader';
 
 type IBook = (typeof booksData)[0];
 
@@ -49,15 +52,11 @@ export default function BooksPage({ books }: IBooksPageProps) {
       }
     >
       <div className="pb-8 pt-16">
-        <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
-          <span role="img" aria-label="Hi">
-            📖
-          </span>{' '}
-          Books that I read
-        </h1>
-        <h2 className="text-xl font-normal">
-          Mystery, Thriller, Fiction, Non-Fiction, Self-Help, and more.
-        </h2>
+        <PageHeader
+          title="Books that I read"
+          emoji="📖"
+          description="Mystery, Thriller, Fiction, Non-Fiction, Self-Help, and more."
+        />
 
         <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
           {books.map((book) => (
@@ -70,9 +69,12 @@ export default function BooksPage({ books }: IBooksPageProps) {
 }
 
 export const getStaticProps = async () => {
+  const cleanedBookdata = booksData.map((b) =>
+    pick(b, ['title', 'author_name', 'book_large_image_url'])
+  );
   return {
     props: {
-      books: booksData,
+      books: cleanedBookdata,
     },
   };
 };

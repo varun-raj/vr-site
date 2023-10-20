@@ -7,6 +7,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx}', './src/**/*.{ts,tsx}'],
   darkMode: 'media',
   plugins: [require('@tailwindcss/typography')],
+
   theme: {
     fontSize: {
       xxxs: ['0.6rem', { lineHeight: '1.2rem' }],
@@ -35,7 +36,12 @@ module.exports = {
       normal: 500,
       regular: 400,
     },
-
+    extend: {
+      colors: {
+        // Tailwind text-orange-500
+        primary: '#FF8C00',
+      },
+    },
     typography: (theme) => ({
       invert: {
         css: {

@@ -4,6 +4,7 @@ import { allPosts } from 'contentlayer/generated';
 import { compareDesc, format, parseISO } from 'date-fns';
 import Link from 'next/link';
 
+import PageHeader from '../components/shared/PageHeader';
 import { Meta } from '../layouts/Meta';
 import { Main } from '../templates/Main';
 import { AppConfig } from '../utils/AppConfig';
@@ -23,7 +24,7 @@ function PostCard(post: Post) {
         className="plain space-y-3 xl:col-span-3"
       >
         <div className="rounded-lg xl:p-4 xl:hover:bg-gray-100 xl:dark:hover:bg-black">
-          <h2 className="mb-1 text-xl font-normal text-gray-900 group-hover:text-orange-500 dark:text-gray-100 dark:group-hover:text-orange-300">
+          <h2 className="mb-1 text-xl font-normal text-gray-900 group-hover:text-primary dark:text-gray-100 dark:group-hover:text-primary">
             {post.title}
           </h2>
           <p className="text-base font-normal text-gray-500">
@@ -50,15 +51,12 @@ export default function Home() {
       }
     >
       <div className="pb-8 pt-16">
-        <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
-          <span role="img" aria-label="Hi">
-            📝
-          </span>{' '}
-          Hear me out.
-        </h1>
-        <h2 className="text-xl  font-normal">
-          I write about life, business and philosophy.
-        </h2>
+        <PageHeader
+          title="Hear me out."
+          emoji="📝"
+          description="I write about life, business and philosophy."
+        />
+
         <div className="mt-20">
           {posts.map((post, idx) => (
             <PostCard key={idx} {...post} />

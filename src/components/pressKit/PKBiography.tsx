@@ -16,7 +16,7 @@ export default function PKBiography() {
         <p className="mb-3">
           <strong className="font-mono text-sm">Short Biography</strong>
         </p>
-        <blockquote className="border-l-4 border-orange-500 pl-4">
+        <blockquote className="border-l-4 border-primary pl-4">
           <p className="text-lg italic">
             Co-Founder and CIO at Skcript, Google Developer Expert for Firebase,
             and a software developer from India.
@@ -27,7 +27,7 @@ export default function PKBiography() {
         <p className="mb-3">
           <strong className="font-mono text-sm">Long Biography</strong>
         </p>
-        <blockquote className="border-l-4 border-orange-500 pl-4">
+        <blockquote className="border-l-4 border-primary pl-4">
           <p className="text-lg italic">
             Varun Raj Manoharan is an entrepreneur and a software developer from
             India, Currently running Skcript Technologies Pvt, Ltd. a software

@@ -4,6 +4,8 @@ import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 import { AppConfig } from '@/utils/AppConfig';
 
+import PageHeader from '../components/shared/PageHeader';
+
 const About = () => (
   <Main
     meta={
@@ -14,9 +16,7 @@ const About = () => (
     }
   >
     <div className="pb-8 pt-16">
-      <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
-        💡 About Me
-      </h1>
+      <PageHeader title="About Me" emoji="💡" />
       {/* <h2 className="text-xl">{AppConfig.description}</h2> */}
     </div>
     <div className="space-y-3 text-base font-normal">
@@ -47,7 +47,7 @@ const About = () => (
       </p>
     </div>
     <div className="mt-10">
-      <h3 className="font-bold text-orange-500">Currently Working on</h3>
+      <h3 className="font-bold text-primary">Currently Working on</h3>
       <ul className="mt-3 flex flex-col space-y-4">
         <li>
           <h4 className="text-base font-normal">

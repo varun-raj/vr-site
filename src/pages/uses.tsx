@@ -7,6 +7,7 @@ import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 import { AppConfig } from '@/utils/AppConfig';
 
+import PageHeader from '../components/shared/PageHeader';
 import { groupToArray } from '../utils/libs';
 
 type IToolITem = (typeof tools)[0];
@@ -57,21 +58,17 @@ export default function ToolsPage() {
       }
     >
       <div className="pb-8 pt-16">
-        <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
-          <span role="img" aria-label="Hi">
-            ⚒️
-          </span>{' '}
-          Tools I use
-        </h1>
-        <h2 className="text-xl  font-normal">
-          A list of tools I use to get things done.
-        </h2>
+        <PageHeader
+          title="Tools I use"
+          emoji="⚒️"
+          description="A list of tools I use to get things done."
+        />
 
         <div className="mt-10 flex flex-col space-y-10">
           {groupedTools.map((group) => (
             <div key={group.label}>
               <div>
-                <h2 className="mb-5 py-3 font-mono font-bold text-orange-500 dark:text-orange-400">
+                <h2 className="mb-5 py-3 font-mono font-bold text-primary dark:text-primary">
                   {group.label}
                 </h2>
               </div>

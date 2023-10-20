@@ -25,13 +25,13 @@ const NavLink = ({ href, isExact, children, ...props }: NavLinkProps) => {
       className={clsx(
         'plain relative block p-2 px-3 text-sm transition ',
         isActive
-          ? 'text-orange-500 hover:text-orange-500 dark:text-orange-400'
+          ? 'text-primary'
           : 'hover:text-gray-500 dark:hover:text-gray-400'
       )}
     >
       {children}
       {isActive && (
-        <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-orange-500/0 via-orange-500/40 to-teal-500/0 dark:from-orange-400/0 dark:via-orange-400/40 dark:to-orange-400/0"></span>
+        <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary/0 via-primary/40 to-teal-500/0 dark:from-primary/0 dark:via-primary/40 dark:to-primary/0"></span>
       )}
     </Link>
   );

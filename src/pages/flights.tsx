@@ -5,6 +5,8 @@ import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 import { AppConfig } from '@/utils/AppConfig';
 
+import PageHeader from '../components/shared/PageHeader';
+
 interface IFlight {
   from: string;
   to: string;
@@ -35,13 +37,11 @@ export default function FlightsPage() {
       }
     >
       <div className="pb-8 pt-16">
-        <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
-          <span role="img" aria-label="Hi">
-            ✈️
-          </span>{' '}
-          Flights
-        </h1>
-        <h2 className="text-xl">Flights that I have taken</h2>
+        <PageHeader
+          title=" Flights"
+          emoji="✈️"
+          description="Flights that I have taken"
+        />
 
         <div className="mt-3 grid grid-cols-2 gap-2 lg:gap-4">
           {flights.map((flight: IFlight, i: number) => (
