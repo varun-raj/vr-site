@@ -7,7 +7,7 @@ interface IPropTypes {
 }
 export default function PageHeader({ emoji, title, description }: IPropTypes) {
   return (
-    <div className=" text-center ">
+    <div className="text-center">
       <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
         {emoji && (
           <span role="img" aria-label="Hi">

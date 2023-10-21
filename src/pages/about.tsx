@@ -38,12 +38,9 @@ const About = () => (
         involves adventure and nature. More into books and music. I love
         collecting souvenirs from every travel I make. I&apos;ve a thing for
         really{' '}
-        {
-          <Link href="/blog/why-we-should-care-about-good-design">
-            good design
-          </Link>
-        }
-        .
+        <Link href="/blog/why-we-should-care-about-good-design">
+          good design.
+        </Link>
       </p>
     </div>
     <div className="mt-10">

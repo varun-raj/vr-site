@@ -43,7 +43,7 @@ const Index = () => {
 
         <p>
           I code, speak and write for passion. Love books and music, huge fan of
-          art. Love collecting souvenirs from every travel I make
+          art. Love collecting souvenirs from every travel I make.
         </p>
 
         <p>I&apos;ve a thing for really good design.</p>

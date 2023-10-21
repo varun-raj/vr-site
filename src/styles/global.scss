@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+  :root {
+    --color-primary: #FF8C00;
+  }
+  .dark {
+    :root {
+      --color-primary: blue;
+    }
+  }
+}
+
 @font-face {
   font-family: 'Satoshi';
   src: url('/Satoshi-Variable.ttf') format('truetype');
@@ -54,5 +66,4 @@ a.hover-arrow:hover {
   /* Add Animations */
   animation-name: arrow;
   animation-duration: 0.3s;
-
 }

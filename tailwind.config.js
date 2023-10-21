@@ -38,8 +38,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        // Tailwind text-orange-500
-        primary: '#FF8C00',
+        primary: 'var(--color-primary)',
       },
     },
     typography: (theme) => ({
