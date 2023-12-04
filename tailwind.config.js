@@ -7,7 +7,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx}', './src/**/*.{ts,tsx}'],
   darkMode: 'media',
   plugins: [require('@tailwindcss/typography')],
-
+  safelist: ['col-span-1', 'col-span-2', 'col-span-3', 'col-span-4'],
   theme: {
     fontSize: {
       xxxs: ['0.6rem', { lineHeight: '1.2rem' }],

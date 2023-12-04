@@ -5,6 +5,14 @@ import Title from '../ui/Title';
 
 const images = [
   {
+    alt: 'Picture Four',
+    src: '/assets/press-kit/picture_four.jpg',
+  },
+  {
+    alt: 'Picture Five',
+    src: '/assets/press-kit/picture_five.jpg',
+  },
+  {
     alt: 'Picture Three',
     src: '/assets/press-kit/picture_three.jpg',
   },
