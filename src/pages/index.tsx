@@ -17,7 +17,7 @@ const Index = () => {
     >
       <div className="pb-8 pt-16">
         <Image
-          src="/profile_picture.jpg"
+          src="/assets/press-kit/picture_four.jpg"
           width={200}
           height={200}
           className="mb-3 h-16 w-16 rounded-full bg-zinc-100 object-cover ring-white transition-all duration-300 hover:h-20 hover:w-20 dark:bg-zinc-800"
@@ -35,8 +35,8 @@ const Index = () => {
           </span>{' '}
           I&apos;m Varun, a web software developer from India, Currently
           building{' '}
-          <a href="https://hellonext.co" target="_blank">
-            Hellonext
+          <a href="https://featureOS.co" target="_blank">
+            featureOS
           </a>{' '}
           a feedback management tool for SaaS tools.
         </p>

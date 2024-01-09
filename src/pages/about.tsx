@@ -21,7 +21,7 @@ const About = () => (
     </div>
     <div className="space-y-3 text-base font-normal">
       <p>
-        I&apos;m a software developer from India, running{' '}
+        I&apos;m a software developer from India 🇮🇳, running{' '}
         <a href="https://skcript.com" target="_blank">
           Skcript
         </a>{' '}
@@ -58,16 +58,12 @@ const About = () => (
         </li>
         <li>
           <h4 className="text-base font-normal">
-            <a
-              href="https://alphaos.app/helpos"
-              className="plain"
-              target="_blank"
-            >
-              helpOS.app
+            <a href="https://alphaos.app" className="plain" target="_blank">
+              alphaos.app
             </a>
           </h4>
           <p className="text-sm font-normal">
-            A helpdesk tool for product owners to manage their support
+            A product management suite for product owners
           </p>
         </li>
       </ul>

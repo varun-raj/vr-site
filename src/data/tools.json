@@ -105,6 +105,13 @@
     "icon": "/assets/images/discord.png"
   },
   {
+    "name": "Slack",
+    "category": "Communication",
+    "description": "Slack is a popular communication app that allows users to send messages, make calls, and share files.",
+    "url": "https://slack.com/",
+    "icon": "/assets/images/slack.png"
+  },
+  {
     "name": "Zoom",
     "category": "Communication",
     "description": "Zoom is a video conferencing app that allows users to host and join virtual meetings, webinars, and online events.",
