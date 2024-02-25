@@ -72,6 +72,7 @@ export const getStaticProps = async () => {
   const cleanedBookdata = booksData.map((b) =>
     pick(b, ['title', 'author_name', 'book_large_image_url'])
   );
+
   return {
     props: {
       books: cleanedBookdata,

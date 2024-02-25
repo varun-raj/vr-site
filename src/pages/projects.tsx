@@ -10,26 +10,6 @@ import { Main } from '../templates/Main';
 
 const projects = [
   {
-    title: `Semgrow`,
-    description:
-      'A brand new SEO Tool in the market for indie hackers and small businesses',
-    image: '',
-    link: 'https://semgrow.app/',
-    logo: '/assets/images/semgrow-logo.svg',
-    tags: ['Cloudflare Workers', 'Next.js', 'Tailwind CSS', 'Hono'],
-    className: 'col-span-1 sm:col-span-3',
-  },
-  {
-    title: `alphaOS`,
-    description: `A suite of tools for product teams to manage product's lifecycle post go live`,
-    image: '',
-    link: 'https://alphaos.app',
-    logo: '/assets/images/alphaos-logo.svg',
-    sourceCode: '',
-    tags: ['React', 'Next.js', 'Tailwind CSS'],
-    className: 'col-span-1 sm:col-span-2',
-  },
-  {
     title: `featureOS`,
     description: 'A feedback management system for product teams',
     image: '',
@@ -37,8 +17,19 @@ const projects = [
     logo: '/assets/images/featureos-logo.png',
     sourceCode: '',
     tags: ['React', 'Next.js', 'Tailwind CSS'],
-    className: 'col-span-1',
+    className: 'col-span-3',
   },
+  {
+    title: `Semgrow`,
+    description:
+      'A brand new SEO Tool in the market for indie hackers and small businesses',
+    image: '',
+    link: 'https://semgrow.app/',
+    logo: '/assets/images/semgrow-logo.svg',
+    tags: ['Cloudflare Workers', 'Next.js', 'Tailwind CSS', 'Hono'],
+    className: 'col-span-1 sm:col-span-1',
+  },
+
   {
     title: `What's the worth?`,
     description:
@@ -70,6 +61,36 @@ const projects = [
     tags: ['NextJS'],
     className: 'col-span-1',
   },
+  {
+    title: `Ullam - AI therapist`,
+    description:
+      'A personal AI therapist that helps you to keep track of your mental health.',
+    logo: 'https://ullam.varunraj.in/logo.png',
+    link: 'https://ullam.varunraj.in',
+    sourceCode: '',
+    tags: ['Gemini', 'GenerativeAI', 'React'],
+    className: 'col-span-2',
+  },
+  {
+    title: `AI Changelog Generator`,
+    description:
+      'Convert your simple release notes to a beautiful changelog with AI.',
+    logo: '/ai-writer.svg',
+    link: 'https://featureos.app/tools/changelog-generator',
+    sourceCode: '',
+    tags: ['Gemini', 'GenerativeAI', 'React'],
+    className: 'col-span-2',
+  },
+  {
+    title: `AI Resume Analyser`,
+    description:
+      'Evaluvate fitness of your resume for a job description using AI.',
+    logo: '/genai-tools.png',
+    link: 'https://genai-tools.skcript.com/',
+    sourceCode: '',
+    tags: ['Gemini', 'GenerativeAI', 'React'],
+    className: 'col-span-1',
+  },
 ];
 export default function ProjectsPage() {
   return (
@@ -86,14 +107,14 @@ export default function ProjectsPage() {
             <div
               key={idx}
               className={clsx(
-                'flex flex-col rounded-xl border border-zinc-800 p-3 dark:border-zinc-800 dark:bg-zinc-800',
+                'flex flex-col rounded-xl border border-zinc-300 p-4 shadow dark:border-zinc-800 dark:bg-zinc-800',
                 project.className
               )}
             >
               <Link
                 href={project.link}
                 target="_blank"
-                className="flex items-center gap-2 !no-underline"
+                className="flex flex-col  gap-2 !no-underline"
               >
                 {project.logo && (
                   <Image
@@ -103,7 +124,7 @@ export default function ProjectsPage() {
                     alt={`${project.title} Logo`}
                   />
                 )}
-                <h2 className="mb-1 text-xl font-bold text-gray-900 group-hover:text-primary dark:text-gray-200 dark:group-hover:text-primary">
+                <h2 className="mb-1 text-xl font-bold text-gray-700 group-hover:text-primary dark:text-gray-200 dark:group-hover:text-primary">
                   {project.title}
                 </h2>
               </Link>
@@ -115,7 +136,7 @@ export default function ProjectsPage() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="mb-2 mr-2 rounded-full bg-gray-200 px-2 text-xxs  text-gray-700 dark:bg-zinc-300/20 dark:text-gray-200"
+                      className="mb-2 mr-2 rounded-full border bg-zinc-100 px-2 text-xxs leading-5  text-gray-700 dark:bg-zinc-300/20 dark:text-gray-200"
                     >
                       {tag}
                     </span>
