@@ -58,12 +58,12 @@ const About = () => (
         </li>
         <li>
           <h4 className="text-base font-normal">
-            <a href="https://alphaos.app" className="plain" target="_blank">
-              alphaos.app
+            <a href="https://guidekit.app" className="plain" target="_blank">
+              guidekit.app
             </a>
           </h4>
           <p className="text-sm font-normal">
-            A product management suite for product owners
+            Helps product users create quick help workflows
           </p>
         </li>
       </ul>
