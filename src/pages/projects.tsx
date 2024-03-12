@@ -104,30 +104,30 @@ export default function ProjectsPage() {
       <div className="pb-8 pt-16">
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, idx) => (
-            <div
+            <Link
               key={idx}
+              href={project.link}
+              target="_blank"
               className={clsx(
-                'flex flex-col rounded-xl border border-zinc-300 p-4 shadow dark:border-zinc-800 dark:bg-zinc-800',
-                project.className
+                'plain flex flex-col rounded-xl border border-zinc-300 bg-white p-4 !no-underline shadow dark:border-zinc-800 dark:bg-zinc-800',
+                project.className,
+                // Zoom in on hover
+                'transform transition-transform duration-300 ease-in-out hover:scale-105'
               )}
             >
-              <Link
-                href={project.link}
-                target="_blank"
-                className="flex flex-col  gap-2 !no-underline"
-              >
+              <div className="flex flex-col  gap-2 !no-underline">
                 {project.logo && (
                   <Image
                     src={project.logo}
-                    width={25}
-                    height={25}
+                    width={20}
+                    height={20}
                     alt={`${project.title} Logo`}
                   />
                 )}
                 <h2 className="mb-1 text-xl font-bold text-gray-700 group-hover:text-primary dark:text-gray-200 dark:group-hover:text-primary">
                   {project.title}
                 </h2>
-              </Link>
+              </div>
               <p className="text-sm font-normal text-gray-500">
                 {project.description}
               </p>
@@ -143,7 +143,7 @@ export default function ProjectsPage() {
                   ))}
                 </div>
               )}
-            </div>
+            </Link>
           ))}
         </div>
       </div>

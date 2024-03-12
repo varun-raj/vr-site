@@ -33,12 +33,14 @@ const Index = () => {
           <span role="img" aria-label="Hi">
             👋
           </span>{' '}
-          I&apos;m Varun, a web software developer from India, Currently
-          building{' '}
-          <a href="https://featureOS.co" target="_blank">
+          I&apos;m Varun, a tech entrepreneur from India, Currently building{' '}
+          <a
+            href="https://featureos.app?utm_source=varunraj_in"
+            target="_blank"
+          >
             featureOS
           </a>{' '}
-          a feedback management tool for SaaS tools.
+          a product manager swiss army knife.
         </p>
 
         <p>

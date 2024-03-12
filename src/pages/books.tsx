@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { User } from '@phosphor-icons/react';
 import { pick } from 'contentlayer/client';
+import Link from 'next/link';
 import React from 'react';
 
 import booksData from '@/data/books-with-isbn.json';
@@ -13,7 +14,7 @@ import PageHeader from '../components/shared/PageHeader';
 type IBook = (typeof booksData)[0];
 
 const BookItem = ({ book }: { book: IBook }) => {
-  const { title, author_name, book_large_image_url } = book;
+  const { title, author_name, book_large_image_url, link = '#' } = book;
   return (
     <div className="flex flex-col items-center justify-start space-y-3 py-6 ">
       <div
@@ -23,9 +24,11 @@ const BookItem = ({ book }: { book: IBook }) => {
         }}
       />
 
-      <h3 className="m-2 text-center text-lg font-normal dark:text-white">
-        {title}
-      </h3>
+      <Link className="plain" href={link} target="_blank">
+        <h3 className="m-2 text-center text-lg font-normal dark:text-white">
+          {title}
+        </h3>
+      </Link>
 
       <div className="flex items-center rounded-full bg-gray-200 px-2 text-xxs text-gray-800 dark:bg-zinc-700 dark:text-gray-400 dark:ring-white/10">
         <User className="mr-1" />
@@ -58,7 +61,7 @@ export default function BooksPage({ books }: IBooksPageProps) {
           description="Mystery, Thriller, Fiction, Non-Fiction, Self-Help, and more."
         />
 
-        <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
+        <div className="mt-3 grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3">
           {books.map((book) => (
             <BookItem key={book.title} book={book} />
           ))}
@@ -70,7 +73,7 @@ export default function BooksPage({ books }: IBooksPageProps) {
 
 export const getStaticProps = async () => {
   const cleanedBookdata = booksData.map((b) =>
-    pick(b, ['title', 'author_name', 'book_large_image_url'])
+    pick(b, ['title', 'author_name', 'book_large_image_url', 'link'])
   );
 
   return {
