@@ -23,14 +23,14 @@ const ToolItem = ({ tool }: { tool: IToolITem }) => {
         {!!(tool.icon && isAssetURL(tool.icon)) && (
           <Image
             src={tool.icon}
-            width={75}
-            height={75}
+            width={100}
+            height={100}
             alt={tool.name}
-            className="max-h-[15px] max-w-[15px]"
+            className="max-h-[20px] max-w-[20px]"
           />
         )}
         {!!(tool.icon && !isAssetURL(tool.icon)) && <span>{tool.icon}</span>}
-        <Link href={tool.url} className="plain hover-arrow">
+        <Link href={tool.url}>
           <h3 className="text-base font-normal dark:text-gray-100">
             {tool.name}
           </h3>
@@ -68,11 +68,11 @@ export default function ToolsPage() {
           {groupedTools.map((group) => (
             <div key={group.label}>
               <div>
-                <h2 className="mb-5 py-3 font-mono font-bold text-primary dark:text-primary">
+                <h2 className="mb-5 py-3 font-mono font-semibold text-primary dark:text-primary">
                   {group.label}
                 </h2>
               </div>
-              <div className="flex flex-col space-y-4 pl-5">
+              <div className="flex flex-col space-y-4">
                 {group.items.map((tool) => (
                   <ToolItem key={tool.name} tool={tool} />
                 ))}

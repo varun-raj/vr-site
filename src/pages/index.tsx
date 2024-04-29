@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import SocialLinks from '@/components/shared/SocialLinks';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
@@ -16,17 +14,9 @@ const Index = () => {
       }
     >
       <div className="pb-8 pt-16">
-        <Image
-          src="/assets/press-kit/picture_four.jpg"
-          width={200}
-          height={200}
-          className="mb-3 h-16 w-16 rounded-full bg-zinc-100 object-cover ring-white transition-all duration-300 hover:h-20 hover:w-20 dark:bg-zinc-800"
-          alt="Profile Picture"
-        />
-        <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
-          {AppConfig.title} 🪴
+        <h1 className="mb-2 text-2xl font-semibold text-gray-900 dark:text-gray-200">
+          {AppConfig.headline}
         </h1>
-        <h2 className="text-xl font-normal">{AppConfig.description}</h2>
       </div>
       <div className="space-y-3 text-base font-normal">
         <p>

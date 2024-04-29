@@ -31,7 +31,7 @@ const NavLink = ({ href, isExact, children, ...props }: NavLinkProps) => {
     >
       {children}
       {isActive && (
-        <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-primary/0 via-primary/40 to-teal-500/0 dark:from-primary/0 dark:via-primary/40 dark:to-primary/0"></span>
+        <span className="from-primary/0 via-primary/40 dark:from-primary/0 dark:via-primary/40 dark:to-primary/0 absolute inset-x-1 -bottom-px h-px bg-gradient-to-r to-teal-500/0"></span>
       )}
     </Link>
   );
@@ -40,9 +40,14 @@ const NavLink = ({ href, isExact, children, ...props }: NavLinkProps) => {
 export default function Header() {
   return (
     <header className="">
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-between py-4">
+        <Link href="/">
+          <p className="font-semibold text-gray-900 no-underline dark:text-gray-200">
+            VR
+          </p>
+        </Link>
         <nav>
-          <ul className="my-5 flex flex-wrap items-center justify-center rounded-full bg-white/90 px-2 text-sm font-normal text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+          <ul className="flex flex-wrap items-center justify-center text-sm font-normal text-zinc-800 dark:text-zinc-200">
             <li>
               <NavLink isExact href="/">
                 Home
