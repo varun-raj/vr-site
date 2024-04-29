@@ -36,7 +36,7 @@ export default function SocialLinks() {
         className="plain group -m-1 p-1"
         aria-label="Follow on Instagram"
         target="_blank"
-        href="https://instagram.com/varunraj-22"
+        href="https://instagram.com/varunraj22"
       >
         <svg
           viewBox="0 0 24 24"
