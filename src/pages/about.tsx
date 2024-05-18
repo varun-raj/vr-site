@@ -21,17 +21,17 @@ const About = () => (
     </div>
     <div className="space-y-3 text-base font-normal">
       <p>
-        I&apos;m a software developer from India 🇮🇳, running{' '}
+        I&apos;m a technology entrepreneur from India 🇮🇳, running{' '}
         <a href="https://skcript.com" target="_blank">
           Skcript
         </a>{' '}
-        - a software technology company, we are building a suit of tools for
-        product owners to build better products and manage them.
+        - a ten year old software technology company, building products that
+        makes product owners life easier to build and manage their products.
       </p>
       <p>
-        Been into the software industry for more than 10 years now, and the
-        world of web technology kept me fasicnated, built most of my projects
-        with Javascript and Typescript eco-system.
+        Been into the industry for more than 10 years now, and the world of web
+        technology kept me fasicnated, built most of my projects with Javascript
+        and Typescript eco-system.
       </p>
       <p>
         I love traveling and exploring new places, mainly the trips that

@@ -33,6 +33,7 @@ module.exports = {
     },
     fontWeight: {
       bold: 800,
+      semibold: 600,
       normal: 500,
       regular: 400,
     },
@@ -89,7 +90,7 @@ module.exports = {
             fontWeight: theme('fontWeight.semibold'),
           },
           h2: {
-            fontSize: theme('fontSize.xl')[0],
+            fontSize: theme('fontSize.2xl')[0],
             lineHeight: theme('lineHeight.7'),
             marginTop: theme('spacing.20'),
             marginBottom: theme('spacing.4'),
