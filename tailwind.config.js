@@ -89,17 +89,26 @@ module.exports = {
             color: 'var(--tw-prose-headings)',
             fontWeight: theme('fontWeight.semibold'),
           },
+
           h2: {
             fontSize: theme('fontSize.2xl')[0],
             lineHeight: theme('lineHeight.7'),
-            marginTop: theme('spacing.20'),
-            marginBottom: theme('spacing.4'),
+            marginTop: theme('spacing.10'),
+            marginBottom: theme('spacing.1'),
           },
           h3: {
-            fontSize: theme('fontSize.base')[0],
+            fontSize: theme('fontSize.xl')[0],
             lineHeight: theme('lineHeight.7'),
-            marginTop: theme('spacing.16'),
-            marginBottom: theme('spacing.4'),
+            marginTop: theme('spacing.10'),
+            marginBottom: theme('spacing.1'),
+            fontWeight: theme('fontWeight.semibold'),
+          },
+          h4: {
+            fontSize: theme('fontSize.lg')[0],
+            lineHeight: theme('lineHeight.7'),
+            marginTop: theme('spacing.10'),
+            marginBottom: theme('spacing.1'),
+            fontWeight: theme('fontWeight.semibold'),
           },
           ':is(h2, h3) + *': {
             marginTop: 0,
@@ -167,6 +176,8 @@ module.exports = {
           // Lists
           ul: {
             listStyleType: 'disc',
+            marginTop: theme('spacing.3'),
+            marginBottom: theme('spacing.7'),
           },
           ol: {
             listStyleType: 'decimal',
@@ -175,8 +186,8 @@ module.exports = {
             paddingLeft: theme('spacing.6'),
           },
           li: {
-            marginTop: theme('spacing.6'),
-            marginBottom: theme('spacing.6'),
+            marginTop: theme('spacing.1'),
+            marginBottom: theme('spacing.1'),
             paddingLeft: theme('spacing[3.5]'),
           },
           'li::marker': {

@@ -77,7 +77,7 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
         height={400}
         className="mt-4 rounded-lg"
       />
-      <article className="prose">
+      <article className="prose dark:prose-invert">
         <Component />
       </article>
     </Main>
@@ -86,9 +86,11 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
 
 export const getStaticPaths: GetStaticPaths<IBlogUrl> = async () => {
   return {
-    paths: allPosts.map((p) => ({
-      params: { slug: p.slug },
-    })),
+    paths: allPosts
+      .filter((p) => !p.draft)
+      .map((p) => ({
+        params: { slug: p.slug },
+      })),
     fallback: false,
   };
 };
@@ -96,7 +98,9 @@ export const getStaticPaths: GetStaticPaths<IBlogUrl> = async () => {
 export const getStaticProps: GetStaticProps<IPropType, IBlogUrl> = async ({
   params,
 }) => {
-  const post = allPosts.find((p) => p.slug === params!.slug);
+  const post = allPosts
+    .filter((p) => !p.draft)
+    .find((p) => p.slug === params!.slug);
   return {
     props: {
       post,
