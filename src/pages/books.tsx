@@ -18,7 +18,7 @@ const BookItem = ({ book }: { book: IBook }) => {
   return (
     <div className="flex flex-col items-center justify-start space-y-3 py-6 ">
       <div
-        className="h-[300px] w-[200px] rounded-lg bg-cover bg-center bg-no-repeat drop-shadow-lg "
+        className="h-[200px] w-[150px] rounded-lg bg-cover bg-center bg-no-repeat drop-shadow-lg "
         style={{
           backgroundImage: `url(${book_large_image_url})`,
         }}
@@ -58,10 +58,10 @@ export default function BooksPage({ books }: IBooksPageProps) {
         <PageHeader
           title="Books that I read"
           emoji="📖"
-          description="Mystery, Thriller, Fiction, Non-Fiction, Self-Help, and more."
+          description={`Mystery, Thriller, Fiction, Non-Fiction, Self-Help, and more.`}
         />
 
-        <div className="mt-3 grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3">
+        <div className="mt-3 grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-2 lg:grid-cols-4">
           {books.map((book) => (
             <BookItem key={book.title} book={book} />
           ))}
