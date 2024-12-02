@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import HomePageBlogSection from '@/components/home/HomePageBlogSection';
 import SocialLinks from '@/components/shared/SocialLinks';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
@@ -20,7 +21,7 @@ const Index = () => {
           src="/assets/press-kit/picture_four.jpg"
           width={200}
           height={200}
-          className="mb-3 h-16 w-16 rounded-full bg-zinc-100 object-cover ring-white transition-all duration-300 hover:h-20 hover:w-20 dark:bg-zinc-800"
+          className="mb-3 size-16 rounded-full bg-zinc-100 object-cover ring-white transition-all duration-300 hover:size-20 dark:bg-zinc-800"
           alt="Profile Picture"
         />
         <h1 className="mb-2 text-5xl font-bold text-gray-900 dark:text-gray-200">
@@ -54,6 +55,8 @@ const Index = () => {
           <em>Love Nature, Spread Peace.</em>
         </p>
       </div>
+
+      <HomePageBlogSection />
       <SocialLinks />
     </Main>
   );
