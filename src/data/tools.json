@@ -35,11 +35,11 @@
     "icon": "🖥"
   },
   {
-    "name": "VSCode",
+    "name": "Cursor",
     "category": "Development",
-    "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
-    "url": "https://code.visualstudio.com/",
-    "icon": "/assets/images/vscode.png"
+    "description": "Cursor is a code editor that is designed to be more efficient and productive.",
+    "url": "https://www.cursor.com/",
+    "icon": "/assets/images/cursor.png"
   },
   {
     "name": "Obsidian",
@@ -152,5 +152,19 @@
     "description": "Blender is a free, open-source 3D creation suite that includes features such as modeling, rigging, animation, simulation, rendering, and motion tracking.",
     "url": "https://www.blender.org/",
     "icon": "/assets/images/blender.webp"
+  },
+  {
+    "name": "Plex",
+    "category": "Homelab",
+    "description": "Plex is a media server software that allows users to stream and manage their media content across multiple devices.",
+    "url": "https://www.plex.tv/",
+    "icon": "/assets/images/plex.png"
+  },
+  {
+    "name": "Immich",
+    "category": "Homelab",
+    "description": "Immich is a self-hosted photo and video backup solution that allows users to store and manage their media content in a private and secure environment.",
+    "url": "https://immich.app/",
+    "icon": "/assets/images/immich.png"
   }
 ]

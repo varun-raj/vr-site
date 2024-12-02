@@ -6,7 +6,6 @@ import type {
   GetStaticProps,
   InferGetStaticPropsType,
 } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useMDXComponent } from 'next-contentlayer/hooks';
 import { ArticleJsonLd } from 'next-seo';
@@ -70,13 +69,6 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
         <p className="text-xs">{post.readingTime.text}</p>
       </div>
 
-      <Image
-        src={post.cover}
-        alt={post.title}
-        width={800}
-        height={400}
-        className="mt-4 rounded-lg"
-      />
       <article className="prose dark:prose-invert">
         <Component />
       </article>

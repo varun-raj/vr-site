@@ -27,7 +27,7 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     fontFamily: {
-      sans: ['Satoshi', ...defaultTheme.fontFamily.sans],
+      sans: ['Inter', ...defaultTheme.fontFamily.sans],
       mono: ['JetBrains Mono', ...defaultTheme.fontFamily.mono],
       serif: ['Lora', ...defaultTheme.fontFamily.serif],
     },
