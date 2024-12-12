@@ -1,0 +1,59 @@
+---
+title: Homelab - the new hobby 
+date: 2024-12-12
+description: I recently got addicted to this new hobby called Homelab. Documenting my journey and learnings about this rabbit hole.
+cover: /assets/blog/homelab-the-new-hobby.jpg
+---
+
+Me being a heavy user of Google Photos with almost a terabyte of my data under Google's storage made me think and raise a question "What happens when my data grows?". I travel a lot and I take a ton of photos. After each trip I end up with almost 50GB of photos and videos. The smart phones are getting a lot better in capturing photos which consumes a lot of storage. And when I started reaching about it I found a lot of people are on the same quest and everything took me to the one rabbit hole called **Homelab**.
+
+
+### W.H.A.T is Homelab?
+
+It is fairly simple. "Running a server at home" and managing things around it. A homelab can be either a simple old PC with a bunch of services running into a large enterprise level server with ton of services running. And if you're like me who loves hacking around computers I'm sure you would enjoy digging this rabbit hole.
+
+### Where to start?
+
+Okay, the first thing you need is a problem statement, it can be either the want of owning your data in your own place, or want to automate your home with smart devices, or hoard a lot of data that you have no clue of using in the future, making a way to stream your digital content to your TV, friends and family, or just play around with your computer.
+
+And the next thing is the piece of hardware, it can be a old PC, a Raspberry Pi, a Mac Mini or even a mini PC. But try getting something that can sit on your home and has the folowing 
+
+- Low power consumption
+- A decent RAM (4GB+)
+- A decent storage (500GB+) (More if you want it to hold data)
+- A decent CPU (Intel i3+ Gen 5+)
+
+### Some basics that I learned. 
+
+- Use ethernet instead of wifi, it is more stable and faster.
+- Try and get SSD as your Operating System drive. 
+- Make sure you've a stable internet and power supply.
+
+### Choosing the each component
+
+#### Operating System
+
+There is no one OS that fits for all, I've tried Linux Mint (Since I had the UI to setup and manage), then I went to Ubuntu server (I got pretty good at my headless linux setup skills). Both of this is good for general purpose servers. I choose them because I wanted my server to do above average in different things like media streaming, file sharing, compute services, etc.
+
+But if you're looking for a more specific use case, let me list the best one in each of the category based on my research and opinion.
+
+- NAS: TrueNAS/Unraid
+- Media Streaming: Kodi 
+- Hypervisor: Proxmox
+- Extendable Configuration: NixOS
+- NAS + Some compute services: TrueNAS Scale
+
+#### Drives
+
+As I mentioned before, go for SSDs and if your PC supports NVMe, go for that since they are super fast. But if you're going to use purely for NAS you can go for HDDs or Sata SSDs.
+
+#### RAM
+
+Go with a minimum of 8GB and DDD4 as its quite cheaper to scale in the future. For TrueNAS with ZFS 8GB is the minimum you should go with. 
+
+#### CPU
+
+Go with a minimum of Intel i3 Gen 5+ or AMD Ryzen 5 5000 series. There are bunch of refurbished Mini PCs that you can get for a good price in Amazon.
+
+
+I think I gave a good start to my homelab journey. I'll be documenting my journey and learnings about this rabbit hole.

@@ -53,11 +53,11 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
         </Link>
       </div>
 
-      <h1 className="mt-2 text-3xl font-bold text-gray-900 dark:text-gray-100">
+      <h1 className="my-2 text-4xl font-bold text-gray-900 dark:text-gray-100">
         {post.title}
       </h1>
 
-      <div className="mt-3 flex items-center justify-between space-x-2">
+      <div className="mb-10 mt-3 flex items-center justify-between space-x-2">
         <Link href={`/blog/${post.slug}`} className="plain">
           <time
             dateTime={post.date}
@@ -69,7 +69,7 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
         <p className="text-xs">{post.readingTime.text}</p>
       </div>
 
-      <article className="prose dark:prose-invert">
+      <article className="prose w-full dark:prose-invert">
         <Component />
       </article>
     </Main>
