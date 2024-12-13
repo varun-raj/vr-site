@@ -34,7 +34,7 @@ module.exports = {
     fontWeight: {
       bold: 800,
       semibold: 600,
-      normal: 500,
+      normal: 400,
       regular: 400,
     },
     extend: {
@@ -72,7 +72,6 @@ module.exports = {
           // Prose
 
           // Base
-          color: 'var(--tw-prose-body)',
           lineHeight: theme('lineHeight.7'),
           '> *': {
             marginTop: theme('spacing.10'),
