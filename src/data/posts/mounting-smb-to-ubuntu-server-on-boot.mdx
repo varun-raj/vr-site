@@ -1,0 +1,74 @@
+---
+title: Mounting SMB to Ubuntu Server on Boot
+description: How to mount SMB to Ubuntu Server on boot using fstab and cifs-utils
+date: 2024-12-17
+cover: /assets/blog/mounting-smb-to-ubuntu-server-on-boot/mounting-smb-to-ubuntu-server-on-boot-1.png
+draft: false
+---
+
+Recently I've setup my custom built NAS server using an refurbished HP EliteDesk 800 Small Form Factor PC. The goal of this was to move my storage out of my primary home server that I had for my [Immich](https://immich.app/) instance. 
+
+I've booted the storage NAS using [TrueNAS](https://www.truenas.com/) and created a SMB share to connect to my primary home server. 
+
+So for binding my NAS SMB Share to my Ubuntu Server on boot, I had to do following steps.
+
+1. Install cifs-utils
+
+Run the following command to install cifs-utils in the primary home server.
+
+```bash
+sudo apt-get update
+sudo apt-get install cifs-utils
+```
+
+2. Create a credentials file
+
+```bash
+sudo nano /etc/samba/credentials # It can be any path.
+```
+And add the following line to the file.
+
+```bash
+username=<NAS_USERNAME>
+password=<NAS_PASSWORD>
+domain=<NAS_DOMAIN> # Usually it is WORKGROUP
+```
+
+3. Create a mount point
+
+```bash
+sudo mkdir -p /mnt/nas # It can be any path you want the storage media to be mounted to
+```
+
+4. Add the mount point to fstab
+
+```bash
+sudo nano /etc/fstab
+```
+And add the following line to the file.
+
+```bash
+//<NAS_IP_ADDRESS>/<SMB_SHARE_NAME> /mnt/nas cifs credentials=/etc/samba/credentials,uid=1000,gid=1000,x-systemd.automount 0 0
+```
+
+Replace `<NAS_IP_ADDRESS>/<SMB_SHARE_NAME>` with the IP address of your NAS server and the name of the SMB share you created in your NAS server. In my case it was `//192.168.0.201/immich-data`.
+
+
+5. Mount the SMB Share
+
+```bash
+sudo mount -a
+```
+
+6. Reboot the server
+
+Once the server reboots, the SMB Share should be mounted to the mount point you specified in the fstab file.
+
+Check the mount point by running the following command.
+
+```bash
+df -h
+```
+
+![screenshot of the mounted SMB Shares](/assets/blog/mounting-smb-to-ubuntu-server-on-boot/mounting-smb-to-ubuntu-server-on-boot-1.png)
+
